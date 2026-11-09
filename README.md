@@ -2,7 +2,7 @@
 
 Banco de questões de prática para a certificação **AWS Certified AI Business Strategist (AIB-C01)**, em inglês e português do Brasil, num formato JSON pronto para apps.
 
-- **340 questões** de cenário, 85 por domínio (24 de múltipla resposta)
+- **350 questões** de cenário (26 de múltipla resposta)
 - Justificativa para **cada alternativa**, nos dois idiomas
 - Gabarito único, compartilhado entre os idiomas
 
@@ -10,7 +10,9 @@ Banco de questões de prática para a certificação **AWS Certified AI Business
 
 As questões em inglês são do projeto [zghanw/aws-ai-business-strategist](https://github.com/zghanw/aws-ai-business-strategist) (licença MIT), no commit `e9e87eb`. Este repositório converte os arquivos `.js` originais para JSON e acrescenta uma **tradução não oficial para PT-BR**.
 
-As questões não são oficiais da AWS e não vêm do exame real.
+Além delas, há **10 questões originais** (d1-86 a d1-88, d2-86, d2-87, d3-86, d3-87, d4-86 a d4-88), escritas para este repositório a partir do guia público do exame. O campo `source` indica a origem de cada questão: `zghanw` ou `original`.
+
+As questões não são oficiais da AWS e não vêm do exame real nem de sites de dumps.
 
 ## Arquivos
 
@@ -28,6 +30,7 @@ As questões não são oficiais da AWS e não vêm do exame real.
   "domain": 1,
   "correct": [0, 2],
   "multi": true,
+  "source": "zghanw",
   "en": { "scenario": "...", "question": "...", "options": ["..."], "rationales": ["..."] },
   "pt": { "scenario": "...", "question": "...", "options": ["..."], "rationales": ["..."] }
 }

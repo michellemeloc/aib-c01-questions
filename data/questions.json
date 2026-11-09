@@ -37,7 +37,8 @@
     "IA é o mais amplo dos três termos, não um subconjunto de ML. GenAI também depende de técnicas de ML, então não é um campo separado.",
     "Modelos de GenAI aprendem com dados usando deep learning, que é uma técnica de ML. Portanto, GenAI faz parte de ML, e não é um ramo separado ao lado dela."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-02",
@@ -77,7 +78,8 @@
     "O aprendizado por reforço treina um agente por meio de recompensas e penalidades em um ambiente. Recompensar o modelo por bloquear transações o incentivaria a bloquear clientes legítimos. O problema do banco é uma tarefa de predição com rótulos.",
     "A geração de dados sintéticos pode complementar dados escassos. No entanto, o banco já tem cinco anos de registros rotulados. Gerar transações sintéticas não produz um modelo que sinalize fraude em novas transações."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-03",
@@ -117,7 +119,8 @@
     "O aprendizado por reforço pode otimizar uma sequência de decisões, como qual oferta mostrar. No entanto, o requisito é descobrir segmentos em dados existentes, não otimizar ofertas por tentativa e erro.",
     "Um LLM pode gerar texto sobre um cliente. No entanto, perfis individuais não identificam grupos de clientes com comportamento semelhante. Essa abordagem também adiciona custo de inferência para 2 milhões de clientes sem atender ao requisito."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-04",
@@ -157,7 +160,8 @@
     "O aprendizado por reforço treina um agente para tomar ações em um ambiente de modo a maximizar uma recompensa acumulada. Os robôs recebem sinais positivos e negativos com base em suas ações. Portanto, o cenário descreve aprendizado por reforço.",
     "O transfer learning reutiliza um modelo treinado em uma tarefa como ponto de partida para outra. O cenário não descreve a reutilização de um modelo existente. O cenário descreve aprendizado a partir de recompensas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-05",
@@ -197,7 +201,8 @@
     "O histórico de vendas são os dados de treinamento, não o algoritmo. O modelo é uma representação aprendida que produz previsões, não um sistema de armazenamento de previsões.",
     "Os termos descrevem coisas diferentes. O algoritmo é o método de aprendizado, e o modelo é o que o método produz a partir dos dados. O mesmo algoritmo pode produzir modelos diferentes com conjuntos de dados diferentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-06",
@@ -237,7 +242,8 @@
     "Foundation models não atualizam seus pesos a partir dos prompts dos usuários durante o uso normal. Atualizar um modelo exige um job separado de treinamento ou customização, o que o cenário afirma não ter acontecido.",
     "Model drift descreve a queda de acurácia quando os dados do mundo real mudam. O drift afeta a qualidade das previsões, não o custo computacional de cada requisição."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-07",
@@ -277,7 +283,8 @@
     "Um LLM consegue interpretar o texto de uma política. No entanto, as saídas de LLM são probabilísticas, então o modelo pode ocasionalmente encaminhar um pedido incorretamente. Cada requisição também adiciona custo de inferência para uma decisão que uma regra pode tomar com exatidão.",
     "Um modelo de classificação aprende padrões a partir de dados históricos. A decisão de encaminhamento não exige padrões aprendidos porque o limite é explícito. O modelo também poderia reproduzir erros de encaminhamento do passado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-08",
@@ -317,7 +324,8 @@
     "Cálculos de impostos sobre a folha precisam ser exatos, repetíveis e auditáveis. A GenAI produz saídas probabilísticas que podem estar erradas de formas plausíveis. Um mecanismo de cálculo determinístico é a ferramenta adequada. Portanto, este é o uso menos adequado para GenAI sozinha.",
     "Sugerir categorias é uma tarefa de classificação com um humano confirmando cada resultado. Os erros são detectados antes de afetar a contabilidade. Este uso é adequado com revisão humana."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-09",
@@ -357,7 +365,8 @@
     "O modelo teve bom desempenho nos testes, o que indica dados de treinamento suficientes para o mercado de origem. Mais dados do mercado de origem não ensinariam ao modelo como os clientes do novo país se comportam.",
     "Um problema de formato impediria o modelo de funcionar. O modelo roda e tem bom desempenho com os clientes do mercado de origem. Portanto, a questão é o que os dados representam, não o formato."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-10",
@@ -397,7 +406,8 @@
     "A taxa de crescimento do ano passado também não refletiria a migração para pedidos on-line. Uma regra fixa não se adapta a padrões que mudam. Essa abordagem troca um problema solucionável por uma solução menos capaz.",
     "Restrições de acesso tratam riscos de segurança, como prompt injection. O cenário descreve queda de acurácia por mudança no comportamento dos clientes, não uso indevido do modelo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-11",
@@ -437,7 +447,8 @@
     "Decisões equipe a equipe criam padrões inconsistentes e nenhuma visibilidade central. Relatórios anuais são infrequentes demais para controlar uma exposição de dados contínua.",
     "Um lembrete aumenta a conscientização, mas não dá aos funcionários uma ferramenta segura nem regras claras. Os funcionários provavelmente continuariam usando chatbots públicos, então o risco de exposição de dados permanece."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-12",
@@ -477,7 +488,8 @@
     "FMs aprendem padrões a partir de dados. Eles não contêm regras escritas à mão. Sistemas baseados em regras também não conseguem lidar com tarefas abertas como sumarização.",
     "Recuperar documentos da empresa no momento da requisição descreve retrieval-augmented generation (RAG), que é um padrão opcional. Não é o RAG que torna um FM de uso geral."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-13",
@@ -517,7 +529,8 @@
     "A context window define quanto input um modelo consegue processar de uma vez. O problema é que o LLM inventa categorias, não que os tickets sejam longos demais. Uma context window maior não restringe a saída.",
     "O RAG fornece conhecimento relevante ao modelo no momento da requisição. Artigos de ajuda não dizem ao modelo quais são as oito categorias permitidas. O RAG também exige nova infraestrutura."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-14",
@@ -557,7 +570,8 @@
     "Exemplos em um prompt orientam o modelo apenas naquela requisição. O few-shot prompting não altera os pesos do modelo. O fine-tuning é um processo de treinamento separado.",
     "O RAG recupera conteúdo relevante de uma fonte de conhecimento externa no momento da requisição. A equipe escreveu os exemplos diretamente no Prompt 2, então não há recuperação."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-15",
@@ -597,7 +611,8 @@
     "Se o FM não conseguisse interpretar linguagem jurídica, conjuntos menores de contratos também falhariam. O problema aparece apenas quando o input é muito grande.",
     "FMs são projetados para processar texto não estruturado, como contratos. Conjuntos menores geram respostas completas, então o tipo de dado não é a causa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-16",
@@ -637,7 +652,8 @@
     "O retreinamento é um custo separado que não depende do tamanho das requisições individuais.",
     "Documentos armazenados afetam custos de armazenamento. Eles não mudam o custo de uma requisição, a menos que seu conteúdo seja enviado ao modelo como tokens de input."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-17",
@@ -677,7 +693,8 @@
     "Treinar um foundation model é a opção de customização mais cara. Um treinamento anual também deixaria as respostas desatualizadas na maior parte do ano.",
     "Um modelo geral não conhece as políticas internas da empresa. Pedir fontes pode levar o modelo a inventar citações que parecem plausíveis."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-18",
@@ -717,7 +734,8 @@
     "Uma context window maior permite mais input por requisição. A equipe já tentou prompts com exemplos, e as saídas ainda variam. Mais espaço de input não muda o comportamento aprendido do modelo.",
     "Uma temperatura mais alta aumenta a variação da saída. A seguradora precisa de saídas mais consistentes, então uma temperatura mais alta pioraria o problema."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-19",
@@ -757,7 +775,8 @@
     "O fine-tuning exige dados rotulados e computação de treinamento. Prompt engineering e RAG exigem menos recursos, então o fine-tuning não deveria vir primeiro.",
     "O RAG exige muito menos recursos que o fine-tuning ou o treinamento do zero. Colocar o RAG por último inverte sua posição na sequência."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-20",
@@ -797,7 +816,8 @@
     "O cenário não descreve fine-tuning. O fine-tuning com dados de compliance precisos não faria, por si só, o modelo inventar regulações. A alucinação pode ocorrer em qualquer modelo generativo.",
     "Uma temperatura zero torna a saída mais consistente e menos aleatória. Ela não força o modelo a inventar detalhes. A alucinação pode ocorrer em qualquer temperatura."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-21",
@@ -837,7 +857,8 @@
     "A automação baseada em regras segue uma sequência fixa e predefinida. A Solução 2 cria o próprio plano e o ajusta com base nos resultados, o que a automação baseada em regras não consegue fazer.",
     "O uso de ferramentas não exige fine-tuning. Agentes chamam APIs por meio de integrações de ferramentas definidas em tempo de execução. O cenário descreve planejamento e uso de ferramentas, não um processo de treinamento."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-22",
@@ -877,7 +898,8 @@
     "Um agente com integrações de ferramentas consegue concluir as etapas. No entanto, cobrar cartões automaticamente viola a política que exige aprovação humana para cobranças.",
     "Um script fixo não consegue interpretar solicitações e preferências variadas dos clientes. Reservar o primeiro voo disponível também ignora o que o cliente pediu."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-23",
@@ -922,7 +944,8 @@
     "Um arquivo CSV armazena valores em linhas e colunas fixas. Portanto, a exportação de preços é um dado estruturado.",
     "Uma planilha organiza os dados em linhas e colunas definidas. Portanto, a planilha de funcionários é um dado estruturado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-24",
@@ -962,7 +985,8 @@
     "A previsão de séries temporais prevê valores futuros a partir de sequências históricas, como a demanda. Ela não inspeciona imagens em busca de defeitos.",
     "A tradução automática converte texto de um idioma para outro. Ela não analisa imagens."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-25",
@@ -1002,7 +1026,8 @@
     "Uma taxa de crescimento fixa ignora a sazonalidade e as diferenças entre lojas. Essa abordagem descarta os padrões de cinco anos de dados.",
     "Um modelo de imagem gera figuras. Um gráfico gerado não é uma previsão, porque não se baseia em um modelo do histórico de vendas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-26",
@@ -1047,7 +1072,8 @@
     "Um FM mais novo não é automaticamente melhor para um caso de uso específico. A empresa deve avaliar cada FM com base nos próprios requisitos.",
     "Popularidade não mostra se um FM atende aos requisitos de latência, custo e qualidade desta empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-27",
@@ -1087,7 +1113,8 @@
     "A context window é o tamanho máximo do input. Ela não controla o quanto a saída é variada ou consistente.",
     "Épocas de treinamento fazem parte do treinamento do modelo, não da inferência. Alterá-las exige um job de treinamento, e a empresa usa o mesmo FM para as duas tarefas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-28",
@@ -1127,7 +1154,8 @@
     "A temperatura controla a variação da saída. A avaliação de sinistros precisa de saídas consistentes, e a temperatura não acrescenta compreensão de imagens.",
     "O aprendizado por reforço é um método de treinamento. Ele não determina se um modelo consegue aceitar inputs de imagem e texto em conjunto."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-29",
@@ -1167,7 +1195,8 @@
     "O RAG fornece conteúdo ao modelo no momento da consulta. Embeddings não alteram os pesos do modelo. Alterar pesos exige treinamento ou fine-tuning.",
     "Embeddings são usados para busca semântica, não para economizar armazenamento. O texto original continua armazenado para poder ser enviado ao modelo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-30",
@@ -1212,7 +1241,8 @@
     "Um prompt de uma palavra remove o contexto de que o modelo precisa. A pequena economia de tokens não compensa um resultado inutilizável.",
     "Letras maiúsculas não acrescentam informação sobre a tarefa. O modelo continua sem saber o público, o objetivo e o formato."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-31",
@@ -1252,7 +1282,8 @@
     "Rodar dois modelos em cada mensagem dobra o custo de inferência e aumenta a latência. O modelo menor sozinho já atinge a meta de acurácia.",
     "Começar com o modelo maior gera custos mais altos por um ano sem benefício medido. A empresa já tem a evidência necessária para escolher o modelo menor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-32",
@@ -1292,7 +1323,8 @@
     "A detecção de anomalias encontra padrões incomuns em dados numéricos, como uma queda súbita nas vendas. Dados de vendas não mostram o que os clientes pensam de cada linha de produtos.",
     "O aprendizado por reforço treina um agente por meio de recompensas. As notas em estrelas sozinhas perdem o detalhe do texto das avaliações, e a tarefa é de análise, não de tomada de decisão sequencial."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-33",
@@ -1332,7 +1364,8 @@
     "A ISO/IEC 27001 especifica requisitos para um sistema de gestão de segurança da informação. Ela não define terminologia de IA.",
     "A ISO 14001 trata de sistemas de gestão ambiental. Ela não aborda sistemas de IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-34",
@@ -1372,7 +1405,8 @@
     "Uma ferramenta que não foi avaliada não foi reprovada em uma revisão. Um bloqueio permanente sem avaliação elimina um caminho legítimo para novas ferramentas e incentiva soluções paralelas.",
     "Deixar a decisão para uma única equipe contorna o sistema de classificação. Reportar incidentes depois que ocorrem não evita a exposição de dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-35",
@@ -1412,7 +1446,8 @@
     "O fine-tuning altera o comportamento de um modelo por meio de treinamento. O design usa vários agentes especializados, não um único modelo customizado.",
     "O roteamento baseado em regras envia solicitações para destinos fixos. Neste design, um agente planeja subtarefas e combina resultados, e agentes especializados fazem o trabalho."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-36",
@@ -1452,7 +1487,8 @@
     "A rotulagem atribui o resultado correto a exemplos históricos para que um modelo aprenda com eles. A etapa diária produz previsões para novas propostas, não rótulos para dados de treinamento.",
     "A validação mede o desempenho de um modelo treinado em dados separados antes da implantação. A etapa diária pontua propostas reais, o que é inferência."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-37",
@@ -1492,7 +1528,8 @@
     "Repetir a mesma medição nos mesmos registros produz o mesmo número enganoso. Isso não testa o modelo em dados não vistos.",
     "Um modelo que memoriza mais seus dados de treinamento pode ter desempenho pior com novos clientes. A empresa precisa de evidência de desempenho em dados não vistos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-38",
@@ -1532,7 +1569,8 @@
     "O score descreve a probabilidade estimada de um cliente. A acurácia geral é uma medição separada sobre muitas previsões.",
     "O score descreve a probabilidade de um resultado para este cliente. Ele não diz nada sobre quantos dados de treinamento vieram desse cliente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-39",
@@ -1572,7 +1610,8 @@
     "A clusterização agrupa registros semelhantes sem rótulos. Ela não prevê um valor específico para cada cliente.",
     "O aprendizado por reforço treina um agente por meio de recompensas por suas ações. A empresa quer uma predição numérica a partir de dados históricos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-40",
@@ -1612,7 +1651,8 @@
     "Modelos de deep learning aprendem padrões a partir de dados, em vez de seguir regras escritas à mão.",
     "RAG é uma técnica que recupera conteúdo externo para fundamentar as respostas de um modelo generativo. Não é outro nome para deep learning."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-41",
@@ -1652,7 +1692,8 @@
     "A previsão de demanda é uma tarefa de predição numérica. Modelos tradicionais de séries temporais foram feitos para ela.",
     "A previsão de churn é uma tarefa de classificação. O ML tradicional consegue prevê-la a partir do histórico de compras."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-42",
@@ -1692,7 +1733,8 @@
     "A GenAI cria conteúdo novo, como texto ou imagens. Produzir uma decisão a partir de regras fixas não é geração.",
     "O deep learning usa redes neurais que aprendem com dados. O número de regras não transforma um sistema baseado em regras em um sistema de deep learning."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-43",
@@ -1732,7 +1774,8 @@
     "A tabela de pedidos de compra não contém os problemas de entrega descritos nas cartas. Um dashboard sobre ela não responde à pergunta.",
     "Pedir o reenvio de 40.000 cartas é inviável e ignora o histórico que já existe."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-44",
@@ -1772,7 +1815,8 @@
     "Excluir chamadas longas descarta dados e ainda deixa áudio que a ferramenta não consegue ler.",
     "Treinar um novo foundation model é caro e desnecessário. Serviços de reconhecimento de fala já convertem áudio em texto."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-45",
@@ -1812,7 +1856,8 @@
     "Campos estruturados, como valores e datas, continuam importantes. As notas os complementam, não os substituem.",
     "Os modelos precisam que o texto seja convertido em uma forma utilizável, como embeddings ou features extraídas. Notas brutas não podem ser inseridas como números."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-46",
@@ -1852,7 +1897,8 @@
     "O tamanho do modelo não corrige rótulos contraditórios. Um modelo maior pode memorizar as contradições.",
     "Deixar o modelo inventar rótulos elimina a definição de urgência de negócio de que a empresa precisa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-47",
@@ -1892,7 +1938,8 @@
     "A atualidade mede se os dados chegam quando são necessários. As leituras estão totalmente ausentes, não atrasadas.",
     "A consistência mede se os dados concordam entre sistemas e formatos. O perfil mostra lacunas, não valores conflitantes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-48",
@@ -1932,7 +1979,8 @@
     "A representatividade diz respeito a se os dados de treinamento refletem a população que o modelo atende. O problema aqui é conteúdo desatualizado na base de conhecimento.",
     "A unicidade diz respeito a registros duplicados. Duplicatas não fariam aparecer preços antigos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-49",
@@ -1972,7 +2020,8 @@
     "A completude diz respeito a valores ausentes. As datas estão presentes, mas são interpretadas incorretamente.",
     "A relevância diz respeito a se os dados servem ao caso de uso. As datas de nascimento são relevantes, mas seus formatos conflitam."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-50",
@@ -2012,7 +2061,8 @@
     "Modelos de demanda são projetados para dados estruturados de reservas.",
     "Inferência é o uso de um modelo treinado. Ela não enviesa as previsões para baixo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-51",
@@ -2052,7 +2102,8 @@
     "Dados recentes são valiosos. O problema é que o histórico é curto demais para incluir ciclos sazonais completos.",
     "Oito meses de vendas de um varejista não é um volume grande demais. A limitação é a cobertura curta."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-52",
@@ -2092,7 +2143,8 @@
     "Backups são uma prática de gestão de dados. Os 20% são separados para avaliação.",
     "Os registros são usados para avaliação, não removidos. Economia de custo não é o propósito."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-53",
@@ -2132,7 +2184,8 @@
     "A ISO/IEC 23053 fornece conceitos e terminologia. A certificação de práticas de gestão é feita com base na ISO/IEC 42001.",
     "A ISO/IEC 42001 é uma norma internacional para sistemas de gestão de IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-54",
@@ -2172,7 +2225,8 @@
     "Nomes de produtos mudam e não definem conceitos. Eles tornariam os contratos menos precisos.",
     "Revisões extras podem pegar alguns erros, mas as equipes continuariam usando definições diferentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-55",
@@ -2212,7 +2266,8 @@
     "A ISO/IEC 42001 é uma norma de gestão de IA, não uma garantia de segurança contra todos os ataques.",
     "A certificação é uma evidência útil, mas o comprador ainda precisa avaliar o fornecedor para o seu próprio caso de uso."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-56",
@@ -2252,7 +2307,8 @@
     "Um único limite bloquearia muitos clientes legítimos e deixaria passar fraudes abaixo dele.",
     "Escrever regras diariamente com GenAI continua dependendo de uma lógica fixa que fica atrás das novas táticas. Também adiciona risco por regras não revisadas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-57",
@@ -2292,7 +2348,8 @@
     "Regras escritas à mão têm dificuldade em capturar padrões complexos de risco de crédito, o que reduz a acurácia.",
     "Um chatbot produz saídas probabilísticas e não foi projetado para verificações exatas de compliance nem para pontuação de crédito."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-58",
@@ -2332,7 +2389,8 @@
     "Reescrever pedidos poderia introduzir erros em dados que precisam ser copiados com exatidão.",
     "A tarefa é inserir todos os pedidos. Deixar um agente decidir quais inserir criaria lacunas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-59",
@@ -2372,7 +2430,8 @@
     "Uma explicação escrita depois do fato pode não refletir o motivo real da retenção. Ela não comprova exatamente por que cada transação foi retida.",
     "A clusterização agrupa registros semelhantes, mas não aplica as condições publicadas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-60",
@@ -2412,7 +2471,8 @@
     "Aprovar todo reembolso elimina o ganho de velocidade nos reembolsos pequenos, que têm pouco risco.",
     "A escolha do cliente não controla o risco financeiro e gera um processamento inconsistente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-61",
@@ -2452,7 +2512,8 @@
     "Lembretes podem ajudar um pouco, mas o modelo continua prevendo dígitos como texto e ainda pode errar.",
     "Exemplos melhoram formato e estilo, mas não tornam a aritmética do modelo exata."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-62",
@@ -2492,7 +2553,8 @@
     "O acesso irrestrito exporia sistemas internos a agentes que o fabricante não controla.",
     "Aceitar toda proposta elimina o valor da negociação e pode prejudicar as operações do fabricante."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-63",
@@ -2532,7 +2594,8 @@
     "Negociar a ordem adiciona imprevisibilidade a um processo que precisa seguir uma sequência fixa.",
     "Os clientes não podem decidir a ordem das verificações regulatórias. O banco precisa impô-la."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-64",
@@ -2572,7 +2635,8 @@
     "Aprovar férias é uma ação com consequências. A equipe pediu apenas respostas a perguntas.",
     "Retreinar a cada mudança de política é caro e lento, e modelos com fine-tuning não citam fontes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-65",
@@ -2612,7 +2676,8 @@
     "Propostas novas ainda não têm resultados conhecidos, então não servem como dados de treinamento rotulados. O retreinamento diário não é possível sem rótulos.",
     "O volume de propostas muda por muitos motivos normais. Desligar o modelo atrapalharia a concessão de crédito sem detectar drift."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-66",
@@ -2652,7 +2717,8 @@
     "Sem monitoramento, a empresa não saberia quando a acurácia cai.",
     "Retreinar com dados antigos não captura a mudança de comportamento que causou a queda."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-67",
@@ -2692,7 +2758,8 @@
     "Depender de relatos dos usuários significa que os problemas chegam primeiro a eles. Os testes devem acontecer antes da troca.",
     "Treinar um foundation model do zero é extremamente caro e desnecessário. A empresa precisa avaliar a nova versão, não reconstruí-la."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-68",
@@ -2732,7 +2799,8 @@
     "O help desk trata solicitações de suporte. Ele não é dono do risco de negócio do modelo.",
     "Sem um limite definido, ninguém sabe quando o modelo precisa de intervenção."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-69",
@@ -2772,7 +2840,8 @@
     "A análise já encontrou um conflito claro. Deixar a ferramenta no limbo sem orientação incentiva o uso não autorizado.",
     "Dados confidenciais são exatamente o que a política protege. Esta escolha é o oposto do que a política exige."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-70",
@@ -2812,7 +2881,8 @@
     "Bloquear todas as ferramentas é uma reação exagerada à mudança de um fornecedor e atrapalha o trabalho em toda a empresa.",
     "Os termos definem como os dados são usados. Ignorá-los esconderia exatamente o risco que a empresa precisa gerenciar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-71",
@@ -2857,7 +2927,8 @@
     "O design da interface afeta a experiência do usuário, não o risco que a ferramenta cria.",
     "A atividade nas redes sociais não mostra como a ferramenta protege dados nem se atende aos requisitos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-72",
@@ -2897,7 +2968,8 @@
     "A empresa não consegue editar os dados de treinamento de um provedor, e o retreinamento não é a forma de definir papel e regras para cada aplicação.",
     "FMs não consultam páginas web para encontrar suas instruções. As instruções precisam ser enviadas com a requisição."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-73",
@@ -2937,7 +3009,8 @@
     "O fine-tuning exige treinamento, que a equipe quer evitar. Ele também pode não resolver as etapas puladas.",
     "Uma temperatura mais alta adiciona aleatoriedade, o que torna etapas puladas ou inconsistentes mais prováveis."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-74",
@@ -2977,7 +3050,8 @@
     "Remover instruções deixa o modelo livre para retornar qualquer formato, o que causa o problema.",
     "Uma explicação detalhada adiciona texto livre que o sistema downstream não consegue interpretar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-75",
@@ -3017,7 +3091,8 @@
     "Modelos diferentes adicionariam mais uma fonte de variação.",
     "Retirar analistas não escala e desperdiça capacidade. Um template compartilhado leva o melhor prompt a todos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-76",
@@ -3057,7 +3132,8 @@
     "Se faltasse conhecimento ao modelo, as comparações curtas também sofreriam. O problema aparece apenas com o tamanho.",
     "A temperatura controla a aleatoriedade na escolha das palavras. Ela não corta as respostas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-77",
@@ -3097,7 +3173,8 @@
     "Chats curtos já funcionam bem. Treinar com eles não resolve o limite das conversas longas.",
     "Transferir o ônus para os clientes cria uma experiência ruim e não resolve o limite subjacente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-78",
@@ -3137,7 +3214,8 @@
     "Uma context window maior permite mais input, mas não reduz os tokens que a empresa envia. O preço mais alto aumentaria ainda mais os custos.",
     "Um modelo geral não conhece as políticas da empresa, então a qualidade das respostas cairia."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-79",
@@ -3177,7 +3255,8 @@
     "O preço por token pode ser o mesmo, mas o número de tokens varia por idioma, então os custos variam.",
     "Serviços de IA generativa costumam ser cobrados por tokens, independentemente dos idiomas atendidos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-80",
@@ -3217,7 +3296,8 @@
     "Esta opção inverte os papéis. Estilo é comportamento aprendido, tratado pelo fine-tuning, e conhecimento que muda é o que o RAG trata.",
     "Apenas prompts podem não alcançar um estilo característico, e sem os precedentes as minutas ficariam desatualizadas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-81",
@@ -3257,7 +3337,8 @@
     "A equipe já tentou adicionar definições aos prompts, com pouca melhora.",
     "A destilação cria um modelo menor e mais barato a partir de um maior. Ela não ensina ao modelo a linguagem do domínio."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-82",
@@ -3297,7 +3378,8 @@
     "Uma temperatura mais alta adiciona aleatoriedade. Ela não torna relevantes trechos sem relação.",
     "O conhecimento geral não inclui os documentos da empresa, então as respostas piorariam."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-83",
@@ -3337,7 +3419,8 @@
     "Mais exemplos em cada prompt adicionam tokens e aumentam o custo.",
     "A temperatura controla a aleatoriedade, não o número de tokens nem o preço por token."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-84",
@@ -3377,7 +3460,8 @@
     "Uma lista de palavras proibidas pode ser aplicada com filtros. Ela não ensina ao modelo o formato desejado.",
     "Um system prompt é usado no momento da inferência. O fine-tuning precisa de exemplos de treinamento."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d1-85",
@@ -3417,7 +3501,136 @@
     "Prompts mais longos nem sempre são melhores. Texto extra pode adicionar custo e confundir o modelo.",
     "Testar com clientes reais os expõe ao prompt mais fraco, e reclamações são um sinal lento e incompleto."
    ]
-  }
+  },
+  "source": "zghanw"
+ },
+ {
+  "id": "d1-86",
+  "domain": 1,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "A logistics company publishes a list of approved generative AI tools. Six months later, an audit finds that two approved tools changed their data retention terms after approval. Meanwhile, a tool that several teams requested has waited four months for review, and some teams have started using it anyway.",
+   "question": "Which change to the tool governance process BEST addresses both issues?",
+   "options": [
+    "Re-review approved tools periodically, and set a target time for new requests",
+    "Remove the central list, and let each department approve the tools that it needs",
+    "Freeze the list at its current contents for a year to reduce the review workload",
+    "Approve every requested tool automatically, and audit how it is used at year end"
+   ],
+   "rationales": [
+    "Approved tools can change after approval, so periodic re-reviews catch new risks such as changed retention terms. A target review time keeps requests moving, which removes the reason teams turned to unapproved use. Together, these fix both gaps.",
+    "Department-level approval creates inconsistent standards and removes central visibility. It does not catch changes in vendor terms.",
+    "A frozen list ignores the changed terms of approved tools and leaves new requests blocked, which pushes more teams toward shadow AI.",
+    "Automatic approval removes the review that protects company data. A year-end audit finds problems long after data may have been exposed."
+   ]
+  },
+  "pt": {
+   "scenario": "Uma empresa de logística publica uma lista de ferramentas de IA generativa aprovadas. Seis meses depois, uma auditoria descobre que duas ferramentas aprovadas mudaram seus termos de retenção de dados após a aprovação. Enquanto isso, uma ferramenta pedida por várias equipes espera revisão há quatro meses, e algumas equipes já começaram a usá-la mesmo assim.",
+   "question": "Qual mudança no processo de governança de ferramentas MELHOR trata os dois problemas?",
+   "options": [
+    "Revisar periodicamente as ferramentas aprovadas e definir um prazo-alvo para novos pedidos",
+    "Eliminar a lista central e deixar cada departamento aprovar as ferramentas de que precisa",
+    "Congelar a lista com o conteúdo atual por um ano para reduzir a carga de revisões",
+    "Aprovar automaticamente toda ferramenta pedida e auditar seu uso no fim do ano"
+   ],
+   "rationales": [
+    "Ferramentas aprovadas podem mudar depois da aprovação, então revisões periódicas detectam novos riscos, como termos de retenção alterados. Um prazo-alvo de revisão mantém os pedidos andando, o que elimina o motivo pelo qual as equipes partiram para o uso não aprovado. Juntas, essas medidas corrigem as duas lacunas.",
+    "A aprovação por departamento cria padrões inconsistentes e elimina a visibilidade central. Ela não detecta mudanças nos termos dos fornecedores.",
+    "Uma lista congelada ignora os termos alterados das ferramentas aprovadas e mantém os novos pedidos bloqueados, o que empurra mais equipes para a shadow AI.",
+    "A aprovação automática elimina a revisão que protege os dados da empresa. Uma auditoria no fim do ano encontra os problemas muito depois de os dados poderem ter sido expostos."
+   ]
+  },
+  "source": "original"
+ },
+ {
+  "id": "d1-87",
+  "domain": 1,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "Before a company published its approved AI tool list, network logs showed heavy traffic to unapproved AI chat websites. The company then launched the list together with a governed enterprise assistant. Three months later, traffic to unapproved AI websites has fallen by 70%, and use of the enterprise assistant has grown each month.",
+   "question": "What does this result MOST likely show?",
+   "options": [
+    "A sanctioned alternative reduced shadow AI by offering employees an approved path",
+    "Employees no longer need any AI tools for their work now that the list has been published",
+    "The enterprise assistant has removed all AI-related risk from the company",
+    "The logs are unreliable, because the use of shadow AI cannot be measured"
+   ],
+   "rationales": [
+    "Shadow AI often grows when employees have no approved option. A published list with a governed tool gives them a sanctioned path, so unapproved traffic falls while approved use rises. The two trends together point to this effect.",
+    "Use of the enterprise assistant grew, which shows that employees still need AI tools. They moved to the approved one.",
+    "Governance reduces risk but cannot remove it entirely. Some unapproved use also remains.",
+    "Network traffic to known AI websites is one practical signal of shadow AI. The consistent trends in both directions support the data."
+   ]
+  },
+  "pt": {
+   "scenario": "Antes de uma empresa publicar sua lista de ferramentas de IA aprovadas, os logs de rede mostravam muito tráfego para sites de chat de IA não aprovados. A empresa então lançou a lista junto com um assistente corporativo governado. Três meses depois, o tráfego para sites de IA não aprovados caiu 70%, e o uso do assistente corporativo cresceu todo mês.",
+   "question": "O que esse resultado MAIS provavelmente mostra?",
+   "options": [
+    "Uma alternativa autorizada reduziu a shadow AI ao oferecer aos funcionários um caminho aprovado",
+    "Os funcionários não precisam mais de nenhuma ferramenta de IA no trabalho agora que a lista foi publicada",
+    "O assistente corporativo eliminou todo o risco relacionado à IA na empresa",
+    "Os logs não são confiáveis, porque o uso de shadow AI não pode ser medido"
+   ],
+   "rationales": [
+    "A shadow AI costuma crescer quando os funcionários não têm uma opção aprovada. Uma lista publicada com uma ferramenta governada lhes dá um caminho autorizado, então o tráfego não aprovado cai enquanto o uso aprovado sobe. As duas tendências juntas apontam para esse efeito.",
+    "O uso do assistente corporativo cresceu, o que mostra que os funcionários continuam precisando de ferramentas de IA. Eles migraram para a aprovada.",
+    "A governança reduz o risco, mas não consegue eliminá-lo totalmente. Algum uso não aprovado também continua.",
+    "O tráfego de rede para sites de IA conhecidos é um sinal prático de shadow AI. As tendências consistentes nas duas direções sustentam os dados."
+   ]
+  },
+  "source": "original"
+ },
+ {
+  "id": "d1-88",
+  "domain": 1,
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true,
+  "en": {
+   "scenario": "A retailer has two AI needs. The marketing team wants to generate product descriptions and compare several foundation models without managing any infrastructure. The planning team wants a custom demand forecasting model trained on five years of its own sales history.",
+   "question": "Which service choices are appropriate? (Select TWO.)",
+   "options": [
+    "Amazon Bedrock to generate descriptions with a choice of foundation models",
+    "Amazon SageMaker AI to build and train the forecasting model on sales history",
+    "Amazon Bedrock to train the forecasting model from scratch on sales history",
+    "AWS Marketplace as the platform that trains and hosts both of the models",
+    "Amazon SageMaker AI as the only way to access any foundation model on AWS"
+   ],
+   "rationales": [
+    "Amazon Bedrock offers foundation models from several providers through one managed API, with no infrastructure to manage. It fits a team that wants to compare models for text generation.",
+    "Amazon SageMaker AI is the platform for building, training, and deploying custom machine learning models on an organization's own data. It fits a forecasting model trained on sales history.",
+    "Bedrock provides managed access to foundation models and can customize them. It is not the service for training a custom forecasting model from scratch on tabular sales data.",
+    "AWS Marketplace is a catalog for finding and buying third-party software. It does not train or host the company's models by itself.",
+    "Foundation models are also available through Amazon Bedrock, which is the managed option that the marketing team needs."
+   ]
+  },
+  "pt": {
+   "scenario": "Um varejista tem duas necessidades de IA. A equipe de marketing quer gerar descrições de produtos e comparar vários foundation models sem gerenciar nenhuma infraestrutura. A equipe de planejamento quer um modelo customizado de previsão de demanda treinado com cinco anos de seu próprio histórico de vendas.",
+   "question": "Quais escolhas de serviço são adequadas? (Selecione DUAS.)",
+   "options": [
+    "Amazon Bedrock para gerar as descrições com uma escolha de foundation models",
+    "Amazon SageMaker AI para construir e treinar o modelo de previsão com o histórico de vendas",
+    "Amazon Bedrock para treinar do zero o modelo de previsão com o histórico de vendas",
+    "AWS Marketplace como a plataforma que treina e hospeda os dois modelos",
+    "Amazon SageMaker AI como a única forma de acessar qualquer foundation model na AWS"
+   ],
+   "rationales": [
+    "O Amazon Bedrock oferece foundation models de vários provedores por meio de uma única API gerenciada, sem infraestrutura para gerenciar. Ele atende a uma equipe que quer comparar modelos para geração de texto.",
+    "O Amazon SageMaker AI é a plataforma para construir, treinar e implantar modelos customizados de machine learning com os dados da própria organização. Ele atende a um modelo de previsão treinado com o histórico de vendas.",
+    "O Bedrock oferece acesso gerenciado a foundation models e pode customizá-los. Não é o serviço para treinar do zero um modelo customizado de previsão com dados tabulares de vendas.",
+    "O AWS Marketplace é um catálogo para encontrar e comprar software de terceiros. Ele não treina nem hospeda, por si só, os modelos da empresa.",
+    "Os foundation models também estão disponíveis pelo Amazon Bedrock, que é a opção gerenciada de que a equipe de marketing precisa."
+   ]
+  },
+  "source": "original"
  },
  {
   "id": "d2-01",
@@ -3457,7 +3670,8 @@
     "Contratar uma equipe antes de definir casos de uso compromete orçamento sem um objetivo claro. A equipe também não teria critérios para decidir quais casos de uso importam.",
     "O caso de uso de um concorrente reflete a estratégia, os dados e os clientes desse concorrente. A pressão competitiva é um contexto útil, mas o investimento deve se basear no valor de negócio e na viabilidade da própria empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-02",
@@ -3497,7 +3711,8 @@
     "Número de pessoas, orçamento e licenças são insumos organizacionais. Eles não medem o resultado de cada contato nem sua qualidade.",
     "Métricas de treinamento e login são indicadores de adoção. Podem antecipar o sucesso, mas não mostram se a ferramenta reduziu o custo por contato ou manteve a qualidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-03",
@@ -3537,7 +3752,8 @@
     "Divulgar a economia esperada define expectativas, mas não cria um ponto de medição. Também pode enviesar como a equipe relata os resultados.",
     "A escolha do modelo afeta os resultados do piloto, não a capacidade de medi-los. Sem linha de base, nem um resultado forte pode ser quantificado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-04",
@@ -3577,7 +3793,8 @@
     "150% é o benefício total dividido pelo investimento. Esse número é uma relação benefício-custo, não o ROI.",
     "67% é o investimento dividido pelo benefício total. Esse cálculo não mede retorno."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-05",
@@ -3617,7 +3834,8 @@
     "Dezoito meses de economia somam US$ 720.000, o que supera o investimento. O investimento é recuperado antes, em 12 meses.",
     "40 é a economia mensal em milhares de dólares, não um número de meses. Não é um cálculo de payback."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-06",
@@ -3662,7 +3880,8 @@
     "O crescimento da receita é medido ao longo de um ano inteiro e reflete muitos fatores. É uma medida de resultado, não um sinal inicial.",
     "O score de uma pesquisa anual chega no fim do ano. Ele mede o resultado, não um sinal antecipado dele."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-07",
@@ -3702,7 +3921,8 @@
     "Licenças compradas medem gasto, não uso. Licenças não usadas não reduzem o custo por sinistro.",
     "O tamanho do modelo não diz nada sobre se os reguladores usam o assistente ou se os custos vão cair."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-08",
@@ -3742,7 +3962,8 @@
     "O crescimento de receita é um benefício tangível porque é medido diretamente em dinheiro.",
     "Uma redução de gastos é um benefício tangível porque é medida diretamente em dinheiro."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-09",
@@ -3787,7 +4008,8 @@
     "A receita esperada é um benefício, não um custo. Ela pertence à seção de benefícios do business case.",
     "Assinaturas sem relação não são causadas por esta iniciativa. Incluí-las superestimaria o custo da iniciativa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-10",
@@ -3827,7 +4049,8 @@
     "Técnicas novas não garantem valor de negócio. Essa abordagem é orientada à tecnologia e pode selecionar casos de uso difíceis de entregar.",
     "Baixo custo, por si só, ignora valor e alinhamento estratégico. Casos de uso baratos podem gerar pouco impacto enquanto os de maior valor ficam sem financiamento."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-11",
@@ -3867,7 +4090,8 @@
     "O caso de uso tem alto valor de negócio, e seu bloqueio pode ser resolvido. Cancelá-lo permanentemente descarta uma oportunidade valiosa.",
     "Dados sintéticos podem complementar dados reais, mas não substituem uma visão precisa do negócio. Implantar sem validação adiciona risco em vez de resolver o problema de dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-12",
@@ -3907,7 +4131,8 @@
     "Uma parceria pode agregar expertise. No entanto, a empresa já tem uma equipe forte, e deixar o parceiro como dono da propriedade intelectual (PI) entrega o controle de uma capacidade diferenciadora.",
     "Esperar atrasa uma capacidade estratégica e pressupõe que um fornecedor vai construí-la. A funcionalidade de um fornecedor também estaria disponível para os concorrentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-13",
@@ -3947,7 +4172,8 @@
     "Uma parceria de pesquisa serve para problemas inéditos. A sumarização de reuniões já é resolvida por produtos maduros, e a pesquisa não atenderia ao prazo de um mês.",
     "Adiar perde o prazo de um mês. Um produto comercial elimina a necessidade de competências internas profundas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-14",
@@ -3987,7 +4213,8 @@
     "Um chatbot de uso geral não foi projetado para documentação clínica nem para regulações de saúde. O grupo também não tem as competências para adaptá-lo com segurança.",
     "Não há indicação de que as regulações vão ficar mais simples. Adiar atrasa o valor sem resolver a lacuna de capacidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-15",
@@ -4032,7 +4259,8 @@
     "Um roadmap longo não demonstra aderência aos requisitos da empresa. As funcionalidades prometidas também podem não ser entregues.",
     "A velocidade importa, mas ignorar o custo total pode levar a uma decisão ruim no longo prazo. A decisão deve pesar o tempo até o valor junto com custo e risco."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-16",
@@ -4072,7 +4300,8 @@
     "O Amazon SageMaker AI é um serviço para construir, treinar e implantar modelos de machine learning. Ele apoia a opção de construir, não a aquisição de software de terceiros.",
     "A Calculadora de Preços da AWS estima o custo de serviços AWS antes da implantação. Ela não oferece um catálogo de produtos de terceiros."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-17",
@@ -4112,7 +4341,8 @@
     "O AWS Marketplace é um catálogo para comprar software de terceiros. Ele não estima o custo de uma arquitetura planejada.",
     "O Amazon Bedrock Guardrails aplica controles de segurança a aplicações de IA generativa. Não é uma ferramenta de estimativa de custos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-18",
@@ -4152,7 +4382,8 @@
     "O AWS Marketplace serve para encontrar e comprar software de terceiros. Ele não analisa tendências de gasto.",
     "O AWS CAF é um framework para planejar a transformação organizacional. Não é uma ferramenta de análise de custos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-19",
@@ -4192,7 +4423,8 @@
     "O licenciamento por assento cobra por usuário, esteja ele ativo ou não. Não se adapta a uma base de clientes imprevisível.",
     "Comprar servidores exige um grande investimento antecipado e capacidade fixa. A capacidade pode ser desperdiçada se a demanda ficar baixa ou ser insuficiente se houver picos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-20",
@@ -4232,7 +4464,8 @@
     "O licenciamento por assento cobra por usuário. Ele não oferece throughput garantido para a workload de uma aplicação.",
     "Níveis gratuitos são feitos para avaliação. A limitação nos horários de pico conflita com a necessidade de throughput garantido."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-21",
@@ -4272,7 +4505,8 @@
     "A precificação por instância cobra pela capacidade de computação ao longo do tempo. A empresa paga um valor fixo por usuário, independentemente da computação.",
     "A precificação por resultado vincula o pagamento aos resultados. O cenário descreve uma taxa mensal fixa, não um pagamento que depende de resultados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-22",
@@ -4312,7 +4546,8 @@
     "Um compromisso de seis meses serve para workloads contínuas e estáveis. Este é um job pontual, então a empresa pagaria por capacidade de que não precisa mais.",
     "A sumarização manual de 2 milhões de documentos seria muito mais lenta e cara que a inferência em lote."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-23",
@@ -4352,7 +4587,8 @@
     "O tamanho do modelo está disponível para qualquer empresa que pague por ele. Também não garante melhores resultados para um negócio específico.",
     "Comunicados de imprensa moldam a percepção, mas não criam capacidade. Os concorrentes podem fazer os mesmos anúncios."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-24",
@@ -4392,7 +4628,8 @@
     "Custos evitados reduzem gastos. O principal resultado da iniciativa é nova receita, não custos menores.",
     "A otimização de infraestrutura melhora o funcionamento dos sistemas de TI. A iniciativa muda o que a seguradora vende."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-25",
@@ -4432,7 +4669,8 @@
     "Modelos mais novos não mudam as evidências do piloto. Esperar um ano atrasa um valor comprovado sem benefício claro.",
     "O piloto já respondeu às suas perguntas. Estendê-lo com o mesmo escopo atrasa o valor sem reduzir nenhuma incerteza restante."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-26",
@@ -4472,7 +4710,8 @@
     "O piloto já produziu evidências claras. Continuar sem mudanças gasta mais orçamento sem um caminho até a meta.",
     "Reportar seletivamente esconde as evidências de que os líderes precisam para decidir. Isso mina a confiança no programa de IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-27",
@@ -4512,7 +4751,8 @@
     "O problema é corrigível, e o piloto comprovou valor. Encerrar a iniciativa, e todos os demais projetos de IA, é uma reação exagerada.",
     "O problema de privacidade envolve dados de clientes, que continuariam fluindo pela solução inalterada. Limitar a implantação a usuários internos não o corrige."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-28",
@@ -4552,7 +4792,8 @@
     "Relatórios setoriais descrevem o mercado em geral. Eles não mostram o que este projeto vai entregar para esta empresa.",
     "Os resultados de outras empresas dependem dos próprios dados e processos delas. Depoimentos não verificam os benefícios para esta empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-29",
@@ -4597,7 +4838,8 @@
     "Um razão contábil precisa de registros exatos e determinísticos. Um LLM produz saídas probabilísticas e não é um sistema de registro.",
     "Contratos envolvem risco jurídico. A GenAI pode redigir contratos, mas eliminar a revisão jurídica de todos eles cria um risco inaceitável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-30",
@@ -4637,7 +4879,8 @@
     "Treinar um FM do zero é a opção mais cara e lenta. Também impede a empresa de aproveitar as melhorias dos FMs comerciais.",
     "O mercado pode continuar mudando por anos. Adiar a adoção abre mão de valor sem reduzir o risco de lock-in."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-31",
@@ -4677,7 +4920,8 @@
     "Os benefícios vêm apenas dos funcionários que usam a ferramenta. Remover a adoção tornaria a estimativa menos precisa, não mais.",
     "Inflar custos arbitrariamente não modela o risco de adoção. Isso troca uma premissa irreal por outra."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-32",
@@ -4717,7 +4961,8 @@
     "Distribuir ferramentas entre os departamentos é uma abordagem orientada à tecnologia. Não garante que alguma iniciativa gere valor de negócio.",
     "As ferramentas dos concorrentes refletem as estratégias deles. Comparar ferramentas não alinha a estratégia aos objetivos desta empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-33",
@@ -4762,7 +5007,8 @@
     "O monitoramento mostra de onde vêm os custos. Sem ele, a empresa não consegue encontrar nem verificar economias.",
     "Enviar cada requisição a dois modelos praticamente dobra o custo de inferência. Isso vai contra o objetivo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-34",
@@ -4802,7 +5048,8 @@
     "ROI semelhante não significa que as propostas sejam equivalentes. O alinhamento estratégico é um fator de priorização separado.",
     "A facilidade de reportar não gera valor. A empresa deve priorizar a proposta que avança sua estratégia."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-35",
@@ -4842,7 +5089,8 @@
     "Uma POC mostra a viabilidade técnica, que é seu propósito. A lacuna é tudo o que a produção exige além da viabilidade.",
     "A acurácia é um fator entre muitos. A aprovação de negócio também depende de valor, custo, adoção e risco."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-36",
@@ -4882,7 +5130,8 @@
     "Linhas de código medem volume de produção, não valor. Mais código pode até significar mais manutenção.",
     "O valor de produtividade pode ser medido por resultados como velocidade de entrega e qualidade. Afirmar que não pode ser medido enfraquece o business case."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-37",
@@ -4927,7 +5176,8 @@
     "O preço de tabela é apenas uma parte do custo total. Qualidade, latência e esforço de integração podem pesar mais que um preço por token menor.",
     "As equipes de atendimento e os clientes podem perceber mudanças de comportamento. As partes interessadas precisam conhecer o cronograma e o plano de contingência."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-38",
@@ -4967,7 +5217,8 @@
     "Ignorar a linha madura deixa a empresa atrás de concorrentes que já usam IA. Os benefícios de ser pioneira na linha incipiente também são incertos.",
     "Esperar aumenta a defasagem na linha madura. Na linha incipiente, a empresa não aprende nada enquanto espera."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-39",
@@ -5007,7 +5258,8 @@
     "O SageMaker AI é cobrado pelo uso de instâncias, não por usuário. O licenciamento por assento não é uma opção para essa workload.",
     "A Calculadora de Preços da AWS estima custos. Ela não os reduz."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-40",
@@ -5047,7 +5299,8 @@
     "Os problemas de dados podem ser corrigidos. Uma rejeição permanente descarta um caso de uso potencialmente valioso.",
     "KPIs definidos depois do lançamento não podem ser comparados a uma linha de base. A empresa não conseguiria comprovar valor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-41",
@@ -5087,7 +5340,8 @@
     "O gasto total de TI reflete muitos projetos. Ele não mostra como o piloto mudou o processo de contas a pagar.",
     "O número de ferramentas licenciadas mede compras, não o efeito do piloto no processo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-42",
@@ -5127,7 +5381,8 @@
     "Memorandos financeiros não têm relação com a preparação de ligações de vendas.",
     "Novas fotos de produtos podem ajudar o marketing, mas não reduzem o tempo de pesquisa dos representantes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-43",
@@ -5167,7 +5422,8 @@
     "Um chatbot para clientes atende a outra função e não ajuda a equipe de P&D a revisar pesquisas.",
     "Prever a cotação das ações não tem relação com a revisão de artigos científicos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-44",
@@ -5207,7 +5463,8 @@
     "Previsões de abertura de contas tratam de marketing, não do gargalo de modernização.",
     "Um chatbot de saldo atende clientes. Ele não ajuda os desenvolvedores a ler código antigo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-45",
@@ -5247,7 +5504,8 @@
     "A previsão de rotatividade pode ser útil para o RH, mas não reduz o tempo gasto com notas.",
     "Substituir atendentes por uma URA muda totalmente o serviço e não atende ao objetivo declarado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-46",
@@ -5287,7 +5545,8 @@
     "A extração de faturas melhora a eficiência do back-office, não a conversão do site.",
     "Contar visitantes nas lojas físicas não muda a experiência on-line."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-47",
@@ -5327,7 +5586,8 @@
     "Os funcionários continuariam enviando dados da empresa ao exterior, então uma política não atende ao requisito.",
     "As regulações restringem onde os dados são processados, não se a GenAI pode ser usada."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-48",
@@ -5367,7 +5627,8 @@
     "O preço do primeiro ano pode esconder custos maiores mais adiante no contrato.",
     "A agilidade da equipe de vendas não é evidência de aderência do produto nem de valor de longo prazo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-49",
@@ -5407,7 +5668,8 @@
     "Parcerias de pesquisa servem para problemas inéditos. Produtos maduros já resolvem este.",
     "Esperar perde o prazo de dois meses sem benefício claro."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-50",
@@ -5447,7 +5709,8 @@
     "A dependência permanente da consultoria conflita com o objetivo de autonomia.",
     "Excluir os funcionários impede o aprendizado que a autonomia exige."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-51",
@@ -5487,7 +5750,8 @@
     "O caso de uso já tem pontuação alta em valor.",
     "Novidade não é um fator de priorização no guia do exame, e o problema é a manutenção, não a novidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-52",
@@ -5527,7 +5791,8 @@
     "A equipe tem opções não testadas que podem fechar a lacuna. Encerrar agora pode descartar uma iniciativa valiosa.",
     "Desligar o assistente em dias alternados prejudicaria a adoção e a confiança dos usuários."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-53",
@@ -5567,7 +5832,8 @@
     "Dois anos sem resultados visíveis arriscam a perda de patrocínio e financiamento.",
     "Pilotos sem metas não conseguem mostrar progresso nem apoiar decisões."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-54",
@@ -5607,7 +5873,8 @@
     "Expandir um projeto de lojas faz pouco sentido quando a empresa está saindo do varejo físico.",
     "Não há indicação de que a decisão será revertida. Pausar prende recursos indefinidamente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-55",
@@ -5647,7 +5914,8 @@
     "Baixo risco é um fator. Ele não torna um caso de uso de baixo valor digno de ser financiado primeiro.",
     "Escalar um caso de uso de baixo valor e não testado desperdiça recursos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-56",
@@ -5687,7 +5955,8 @@
     "Analisar todos os e-mails internos levanta sérias preocupações de privacidade e continua sem um objetivo definido.",
     "Comprar uma ferramenta primeiro é uma abordagem orientada à tecnologia. Isso não define nem resolve um problema."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-57",
@@ -5727,7 +5996,8 @@
     "Doze exemplos não conseguem representar os padrões de forma confiável. Um modelo provavelmente sofreria overfitting.",
     "Um modelo maior não cria os exemplos que faltam. Ele também pode memorizar os poucos exemplos existentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-58",
@@ -5767,7 +6037,8 @@
     "O business case deve vir antes da compra. Aqui, ele mostraria que os custos superam os benefícios.",
     "Um modelo customizado custaria ainda mais e continuaria não se pagando com esse volume."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-59",
@@ -5807,7 +6078,8 @@
     "O problema não é entender as solicitações. O tamanho do modelo não cria responsáveis.",
     "Lembretes não dizem a ninguém quem é responsável por cada etapa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-60",
@@ -5847,7 +6119,8 @@
     "Realocar a equipe antes dos testes elimina o plano de contingência de que a continuidade depende.",
     "Acurácia perfeita é irreal, e adiar todos os empréstimos prejudica os clientes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-61",
@@ -5887,7 +6160,8 @@
     "Um único arquivo grande quebraria a recuperação e eliminaria as permissões por documento.",
     "Remover as permissões exporia conteúdo restrito a todos os usuários."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-62",
@@ -5927,7 +6201,8 @@
     "Os modelos de precificação mudam a forma como os custos escalam com o uso, então o total pode subir ou cair.",
     "Na precificação por token, o custo depende dos tokens usados, não do número de usuários."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-63",
@@ -5967,7 +6242,8 @@
     "Licenças e logins são medidas de adoção. Eles não mostram eficiência nem impacto.",
     "A contagem de palavras mede volume. Mais conteúdo não é melhor a menos que tenha bom desempenho."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-64",
@@ -6007,7 +6283,8 @@
     "Benefícios intangíveis como o bem-estar dos funcionários pertencem ao business case. Eles o fortalecem quando são explicitados com clareza.",
     "O burnout não aparece como uma linha nas demonstrações financeiras."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-65",
@@ -6047,7 +6324,8 @@
     "Tamanho da equipe e treinamento são insumos, não resultados.",
     "Parâmetros e features descrevem o modelo, não seu impacto no negócio."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-66",
@@ -6087,7 +6365,8 @@
     "Sem uma linha de base, a empresa não consegue mostrar o quanto o piloto mudou.",
     "Estimativas feitas depois do piloto não são confiáveis e podem ser enviesadas pelos resultados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-67",
@@ -6127,7 +6406,8 @@
     "Atribuir toda mudança ao assistente superestimaria ou subestimaria seu impacto.",
     "Como o lançamento afeta todas as equipes, seu efeito precisa ser controlado, não ignorado. Uma equipe de comparação faz isso."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-68",
@@ -6167,7 +6447,8 @@
     "Os dados não mostram aumento. O tempo de atendimento foi semelhante nos dois meses.",
     "Usar o assistente em um mês movimentado não comprova valor sem uma comparação justa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-69",
@@ -6207,7 +6488,8 @@
     "11.500 horas pressupõe apenas 100 atendentes ou apenas 115 dias úteis.",
     "2.300 horas pressupõe 10 horas economizadas por dia no total, o que subconta os atendentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-70",
@@ -6247,7 +6529,8 @@
     "200% divide o benefício líquido de US$ 600.000 pelo custo de operação de US$ 300.000, o que não é o cálculo do ROI.",
     "150% é o benefício anual líquido dividido pelo investimento. O ROI subtrai o investimento do benefício líquido antes de dividir."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-71",
@@ -6287,7 +6570,8 @@
     "Atribuir tudo à promoção pode subestimar a contribuição da IA.",
     "Omitir a promoção engana os decisores sobre o retorno da IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-72",
@@ -6327,7 +6611,8 @@
     "Receita é um benefício, não um custo.",
     "Custos de um projeto concluído não têm relação com este business case."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-73",
@@ -6367,7 +6652,8 @@
     "Licenças compradas medem gasto, não se o chatbot funciona.",
     "O tamanho do prompt não diz nada sobre se o chatbot resolve conversas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-74",
@@ -6407,7 +6693,8 @@
     "E-mails de fornecedores não medem o progresso do programa.",
     "O tamanho do documento não prevê sucesso."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-75",
@@ -6447,7 +6734,8 @@
     "A conclusão do treinamento indica se os funcionários conseguem usar bem o assistente.",
     "A parcela de documentos redigidos com o assistente mostra a adoção cedo, antes de a economia aparecer."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-76",
@@ -6487,7 +6775,8 @@
     "Uma divisão igual ignora as diferenças de uso e não gera responsabilização.",
     "Gastos autodeclarados não são confiáveis e são difíceis de verificar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-77",
@@ -6527,7 +6816,8 @@
     "Esperar as faturas significa lançar sem um orçamento aprovado.",
     "O orçamento de um concorrente reflete outra workload e outro uso."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-78",
@@ -6567,7 +6857,8 @@
     "Respostas mais longas adicionam tokens de saída e aumentam o custo.",
     "Enviar o bloco duas vezes dobra os tokens repetidos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-79",
@@ -6607,7 +6898,8 @@
     "Limitar requisições reduz o custo reduzindo o valor, e frustra os usuários.",
     "Respostas mais longas adicionam tokens de saída e aumentam o custo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-80",
@@ -6647,7 +6939,8 @@
     "Desligar a aplicação à noite interromperia o serviço para os usuários.",
     "Os compromissos têm prazos, e a capacidade pode ser ajustada quando um compromisso termina. Deixá-la inalterada continua pagando por capacidade ociosa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-81",
@@ -6687,7 +6980,8 @@
     "Usar a mesma plataforma dos concorrentes não identifica onde o banco pode se destacar.",
     "Funcionalidades que os clientes não pediram dificilmente fortalecem a posição do banco."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-82",
@@ -6727,7 +7021,8 @@
     "Os clientes esperam o assistente. Não oferecê-lo coloca a empresa em desvantagem.",
     "Um projeto de pesquisa sem dono nem plano de lançamento deixaria a lacuna aberta."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-83",
@@ -6767,7 +7062,8 @@
     "Ignorar um concorrente com clara vantagem de velocidade e custo arrisca perder clientes.",
     "Aplicar IA em tudo sem um plano é uma abordagem orientada à tecnologia que pode não tratar a ameaça."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-84",
@@ -6807,7 +7103,8 @@
     "Um produto genérico do mesmo fornecedor não oferece diferenciação.",
     "Sem dados nem competências, o projeto dificilmente terá sucesso ou criará vantagem."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d2-85",
@@ -6847,7 +7144,90 @@
     "Um chatbot de RH melhora a produtividade interna, não o modelo de negócio.",
     "Resumos de reuniões são uma ferramenta de produtividade interna."
    ]
-  }
+  },
+  "source": "zghanw"
+ },
+ {
+  "id": "d2-86",
+  "domain": 2,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "A finance team has two requests. First, it wants to review last quarter's actual spending on AI services, broken down by project. Second, it wants an estimate of next year's cost for a new AI project that has not been built yet.",
+   "question": "Which pair of AWS tools BEST meets these two requests?",
+   "options": [
+    "AWS Cost Explorer for actual spending, and AWS Pricing Calculator for the new project",
+    "AWS Pricing Calculator for actual spending, and AWS Cost Explorer for the new project",
+    "AWS Marketplace for actual spending, and Amazon Bedrock for the new project",
+    "AWS Cost Explorer for both requests, because it can forecast any future project"
+   ],
+   "rationales": [
+    "AWS Cost Explorer analyzes actual spending and can group it by tags such as project. AWS Pricing Calculator estimates the cost of services that are planned but not yet deployed.",
+    "This option reverses the tools. Pricing Calculator does not report actual spending, and Cost Explorer has no usage history for a project that does not exist yet.",
+    "AWS Marketplace is a catalog for buying third-party software, and Amazon Bedrock is a generative AI service. Neither analyzes or estimates costs.",
+    "Cost Explorer forecasts from historical usage. A project that has not been built has no usage history to forecast from."
+   ]
+  },
+  "pt": {
+   "scenario": "Uma equipe financeira tem dois pedidos. Primeiro, quer analisar o gasto real com serviços de IA no último trimestre, dividido por projeto. Segundo, quer uma estimativa do custo do próximo ano para um novo projeto de IA que ainda não foi construído.",
+   "question": "Qual par de ferramentas da AWS MELHOR atende a esses dois pedidos?",
+   "options": [
+    "AWS Cost Explorer para o gasto real e Calculadora de Preços da AWS para o novo projeto",
+    "Calculadora de Preços da AWS para o gasto real e AWS Cost Explorer para o novo projeto",
+    "AWS Marketplace para o gasto real e Amazon Bedrock para o novo projeto",
+    "AWS Cost Explorer para os dois pedidos, porque ele consegue prever qualquer projeto futuro"
+   ],
+   "rationales": [
+    "O AWS Cost Explorer analisa o gasto real e consegue agrupá-lo por tags, como projeto. A Calculadora de Preços da AWS estima o custo de serviços planejados, mas ainda não implantados.",
+    "Esta opção inverte as ferramentas. A Calculadora de Preços não reporta gasto real, e o Cost Explorer não tem histórico de uso de um projeto que ainda não existe.",
+    "O AWS Marketplace é um catálogo para comprar software de terceiros, e o Amazon Bedrock é um serviço de IA generativa. Nenhum dos dois analisa nem estima custos.",
+    "O Cost Explorer faz previsões a partir do uso histórico. Um projeto que não foi construído não tem histórico de uso para basear a previsão."
+   ]
+  },
+  "source": "original"
+ },
+ {
+  "id": "d2-87",
+  "domain": 2,
+  "correct": [
+   1
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "A streaming service launches AI-powered title recommendations to improve the subscriber experience. The product team proposes several pairs of key performance indicators (KPIs) to report to leadership.",
+   "question": "Which pair of KPIs BEST shows whether the feature improves the subscriber experience?",
+   "options": [
+    "Model precision on a held-out test set, and the average inference latency",
+    "Viewing time per subscriber and churn rate, compared with a holdout group",
+    "Recommendations shown per session, and the total number of catalog titles",
+    "The number of survey responses, and the features shipped in the quarter"
+   ],
+   "rationales": [
+    "Precision and latency are technical metrics. A model can score well on a test set and still fail to change how subscribers behave.",
+    "Viewing time and churn show whether subscribers engage more and stay longer, which reflects their experience. Comparing with a holdout group that does not see the feature isolates its effect.",
+    "These metrics count activity and inventory. Showing more recommendations does not mean that subscribers find them useful.",
+    "Response counts and shipped features measure effort and output, not whether the experience improved."
+   ]
+  },
+  "pt": {
+   "scenario": "Um serviço de streaming lança recomendações de títulos com IA para melhorar a experiência dos assinantes. A equipe de produto propõe vários pares de KPIs para reportar à liderança.",
+   "question": "Qual par de KPIs MELHOR mostra se a funcionalidade melhora a experiência dos assinantes?",
+   "options": [
+    "Precisão do modelo em um conjunto de teste separado e a latência média de inferência",
+    "Tempo de visualização por assinante e taxa de churn, comparados com um grupo de holdout",
+    "Recomendações exibidas por sessão e o número total de títulos do catálogo",
+    "O número de respostas a pesquisas e as funcionalidades entregues no trimestre"
+   ],
+   "rationales": [
+    "Precisão e latência são métricas técnicas. Um modelo pode ir bem em um conjunto de teste e ainda assim não mudar o comportamento dos assinantes.",
+    "O tempo de visualização e o churn mostram se os assinantes se engajam mais e ficam por mais tempo, o que reflete sua experiência. A comparação com um grupo de holdout que não vê a funcionalidade isola o efeito dela.",
+    "Essas métricas contam atividade e inventário. Exibir mais recomendações não significa que os assinantes as achem úteis.",
+    "Contagens de respostas e funcionalidades entregues medem esforço e produção, não se a experiência melhorou."
+   ]
+  },
+  "source": "original"
  },
  {
   "id": "d3-01",
@@ -6887,7 +7267,8 @@
     "A veracidade diz respeito a se as saídas estão corretas. O modelo atinge sua meta de acurácia, e o problema é como os resultados diferem entre grupos.",
     "A transparência ajuda as partes interessadas a saber que a IA é usada e como. A divulgação não corrigiria taxas de aprovação desiguais."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-02",
@@ -6927,7 +7308,8 @@
     "Controlabilidade é a capacidade de monitorar e direcionar o comportamento de um sistema. Os analistas precisam entender decisões individuais, não pausar ou sobrepor o modelo.",
     "Privacidade e segurança tratam da proteção de dados pessoais e sistemas. Proteger os dados dos pedidos não produz os motivos que a regulação exige."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-03",
@@ -6967,7 +7349,8 @@
     "Um filtro de conteúdo controla temas. Ele não informa aos clientes que estão falando com uma IA nem explica suas limitações.",
     "Mais acurácia é útil, mas não informa aos clientes que o assistente é uma IA. A reclamação é sobre divulgação, não sobre acurácia."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-04",
@@ -7007,7 +7390,8 @@
     "Esperar relatos dos clientes significa que o dano já ocorreu. Essa abordagem é reativa, não preventiva.",
     "Os dados de treinamento são uma fonte de risco, mas não a única. O caso de uso, as saídas e o monitoramento em produção também precisam de controles de IA responsável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-05",
@@ -7047,7 +7431,8 @@
     "A ordem da fila ignora a urgência médica. Descartar um modelo útil abre mão de benefícios que a supervisão humana pode tornar seguros.",
     "Os pacientes não conseguem avaliar os riscos do modelo, e a escolha criaria padrões inconsistentes. A responsabilização pelas decisões clínicas pertence ao hospital."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-06",
@@ -7087,7 +7472,8 @@
     "A rescisão afeta o sustento de uma pessoa e envolve responsabilidade legal. Um humano precisa revisar a recomendação e tomar a decisão final.",
     "Resumos de notícias para leitura interna têm baixo risco. Erros ocasionais não afetam os direitos nem as finanças de ninguém."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-07",
@@ -7127,7 +7513,8 @@
     "Os fornecedores têm interesse comercial nas decisões. A responsabilidade pela governança precisa ficar dentro da empresa.",
     "O impacto na marca é uma consideração, mas o marketing sozinho não consegue avaliar riscos técnicos, jurídicos ou regulatórios."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-08",
@@ -7167,7 +7554,8 @@
     "Esta afirmação inverte as duas áreas. Criptografia e controles de acesso são medidas de segurança, e equidade é uma preocupação de IA responsável que a governança supervisiona.",
     "Um sistema seguro ainda pode tomar decisões injustas, inseguras ou não conformes. A segurança não substitui a governança."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-09",
@@ -7207,7 +7595,8 @@
     "Casos de uso internos ainda podem ter alto risco, como modelos que afetam funcionários. Isentá-los todos deixa riscos reais sem gestão.",
     "Controles definidos equipe a equipe criam padrões inconsistentes. Um resumo anual oferece pouca supervisão dos casos de alto risco."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-10",
@@ -7252,7 +7641,8 @@
     "Passar em um teste antes do lançamento não impede que o viés surja depois. O monitoramento contínuo é necessário.",
     "O viés pode afetar qualquer tipo de modelo, incluindo modelos de texto, tabulares e de imagem."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-11",
@@ -7297,7 +7687,8 @@
     "O system prompt define regras e restrições para o modelo. Removê-lo reduz o controle sobre as respostas.",
     "A recuperação reduz as alucinações, mas não as elimina. O monitoramento continua necessário para detectar erros."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-12",
@@ -7337,7 +7728,8 @@
     "Alucinação é uma saída incorreta que o modelo gera por conta própria. Aqui, um usuário tenta enganar o agente, e uma context window maior não impede isso.",
     "Centralizar os dados e dar ao agente acesso a todos eles aumentaria o dano de uma injeção bem-sucedida."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-13",
@@ -7377,7 +7769,8 @@
     "Os logs são necessários para investigar e auditar as ações do agente. Removê-los esconde os problemas em vez de limitá-los.",
     "Deixar um agente alterar as próprias permissões elimina o limite que restringe o dano. Um agente manipulado poderia conceder a si mesmo mais acesso."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-14",
@@ -7417,7 +7810,8 @@
     "O AWS Cost Explorer analisa gastos. Ele não tem recursos de segurança de conteúdo.",
     "O Amazon SageMaker AI é uma plataforma para construir e implantar modelos de machine learning. Não é a camada de segurança gerenciada das aplicações do Bedrock."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-15",
@@ -7457,7 +7851,8 @@
     "Os filtros de conteúdo com a categoria de ataque de prompt detectam tentativas de sobrepor as instruções do modelo. Eles não verificam se uma resposta corresponde aos documentos recuperados.",
     "Os filtros de informações sensíveis bloqueiam ou mascaram dados pessoais. Eles não verificam as respostas em relação aos documentos recuperados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-16",
@@ -7497,7 +7892,8 @@
     "A segurança física dos data centers é responsabilidade da AWS.",
     "Os provedores de modelos são responsáveis por seus modelos. A empresa continua responsável por seus dados, sua aplicação e como usa as saídas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-17",
@@ -7537,7 +7933,8 @@
     "A AWS afirma que o Bedrock não compartilha os prompts e as saídas dos clientes com os provedores de modelos.",
     "O Bedrock não armazena prompts e respostas por padrão. Clientes que precisam de trilha de auditoria podem ativar o registro de invocações em um armazenamento que eles controlam."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-18",
@@ -7577,7 +7974,8 @@
     "Imagens e textos podem violar direitos autorais e marcas. Conteúdo de marketing tem risco real de PI.",
     "O tamanho do modelo não elimina o risco de PI. Qualquer modelo pode produzir saídas parecidas com obras protegidas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-19",
@@ -7617,7 +8015,8 @@
     "Proibir roadmaps digitais atrapalha o negócio e não trata o uso de GenAI com outros dados confidenciais.",
     "Um lembrete anual aumenta a conscientização, mas não diz aos funcionários quais ferramentas podem receber quais dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-20",
@@ -7657,7 +8056,8 @@
     "Excluir logs remove os dados necessários para detectar e investigar vieses. Isso atrasaria ainda mais a detecção.",
     "Uma amostra maior melhora a auditoria anual, mas ela continua ocorrendo só uma vez por ano. Os problemas podem persistir por meses antes de serem detectados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-21",
@@ -7697,7 +8097,8 @@
     "A equidade diz respeito aos resultados entre grupos. Os testes não comparam resultados entre grupos.",
     "A explicabilidade diz respeito a entender por que um sistema produziu uma saída. Os testes verificam se as respostas continuam corretas, não se podem ser explicadas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-22",
@@ -7737,7 +8138,8 @@
     "Verificações de equidade comparam resultados entre grupos. O dano aqui afeta qualquer paciente que receba uma sugestão perigosa.",
     "Deixar os pacientes alterarem a aleatoriedade da saída não evita sugestões nocivas e pode torná-las mais prováveis."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-23",
@@ -7777,7 +8179,8 @@
     "Escolher regiões para evitar leis mais rígidas continua sendo mau uso dos dados. Também cria risco jurídico e reputacional.",
     "Atualizar o aviso depois não torna consentido o uso passado. Os dados dos clientes seriam usados sem permissão nesse meio-tempo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-24",
@@ -7822,7 +8225,8 @@
     "Fornecedores conhecidos também precisam de revisão. Seus termos e práticas podem não servir a este caso de uso.",
     "O preço importa, mas revisar as práticas depois do lançamento significa que os dados dos clientes já estão expostos a eventuais lacunas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-25",
@@ -7862,7 +8266,8 @@
     "O PCI DSS é uma norma de segurança para dados de cartões de pagamento. Ele não cobre a gestão de IA.",
     "A ISO/IEC 27001 trata da gestão de segurança da informação. Ela não aborda a governança de IA responsável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-26",
@@ -7902,7 +8307,8 @@
     "As ofertas do Marketplace descrevem produtos de terceiros à venda. Não são a documentação de IA responsável da AWS sobre os próprios serviços.",
     "As estimativas de preço mostram custos esperados. Elas não descrevem usos pretendidos nem limitações."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-27",
@@ -7942,7 +8348,8 @@
     "Recusar-se a comentar não contém o dano e pode prejudicar ainda mais a confiança.",
     "Excluir logs remove as evidências necessárias para investigar o incidente e corrigir sua causa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-28",
@@ -7982,7 +8389,8 @@
     "A transparência ajuda as partes interessadas a saber que a IA é usada e quais são suas limitações. A capacidade de pausar e sobrepor vai além da divulgação.",
     "Privacidade e segurança tratam da proteção de dados e modelos. Os requisitos não envolvem proteção de dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-29",
@@ -8022,7 +8430,8 @@
     "Publicar transcrições exporia dados pessoais. É o oposto de proteger a privacidade.",
     "Excluir os dados protege a privacidade, mas abre mão de todo o seu valor. Mascaramento e controles de acesso alcançam os dois objetivos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-30",
@@ -8062,7 +8471,8 @@
     "A atribuição de dono é um controle de governança. Ela não altera o desempenho técnico, como a latência.",
     "Um campo no inventário é um registro, não o propósito. O propósito é a responsabilização por como o sistema se comporta e pelo que ele causa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-31",
@@ -8102,7 +8512,8 @@
     "As regras menos rígidas violariam os requisitos dos países mais rígidos.",
     "Esperar sanções significa que as violações já aconteceram. A governança deve ser proativa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-32",
@@ -8147,7 +8558,8 @@
     "O feedback dos reguladores é como a empresa encontra e corrige erros. Desativá-lo bloqueia a melhoria contínua.",
     "Os guardrails reduzem saídas nocivas e incorretas. Removê-los para aumentar a automação eleva o risco em um processo de alto impacto."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-33",
@@ -8187,7 +8599,8 @@
     "Remover as restrições de acesso expõe dados sensíveis de RH e remuneração a todos.",
     "Confiar no comportamento dos usuários não é um controle. Qualquer pessoa poderia perguntar, de propósito ou por acidente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-34",
@@ -8227,7 +8640,8 @@
     "O pilar de Segurança trata da proteção de sistemas e dados. A segurança é uma parte da IA responsável, mas o pilar não cobre equidade, explicabilidade nem transparência.",
     "A perspectiva de Operações do CAF trata da operação de workloads na nuvem. Não é um conjunto de perguntas de revisão de IA responsável para workloads de IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-35",
@@ -8267,7 +8681,8 @@
     "Os tópicos negados bloqueiam áreas inteiras de assunto. Bloquear perguntas de elegibilidade impediria o assistente de fazer seu trabalho.",
     "Os filtros de informações sensíveis bloqueiam ou mascaram dados pessoais. Eles não verificam se uma resposta segue as regras de elegibilidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-36",
@@ -8307,7 +8722,8 @@
     "Usos de alto impacto continuam precisando de supervisão humana. Remover toda revisão leva ao extremo oposto.",
     "O incidente do concorrente pode não se aplicar aos sistemas desta empresa. Pausar tudo abre mão de valor sem tratar riscos específicos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-37",
@@ -8347,7 +8763,8 @@
     "Acurácia alta não exclui resultados injustos. Lançar pode prejudicar clientes qualificados e criar risco jurídico.",
     "Remover os bairros excluiria totalmente esses clientes, o que piora a injustiça."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-38",
@@ -8387,7 +8804,8 @@
     "Remover o julgamento humano da subscrição cria risco, especialmente quando os subscritores não veem o raciocínio.",
     "Uma única recomendação dá ainda menos visibilidade sobre o raciocínio do modelo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-39",
@@ -8427,7 +8845,8 @@
     "As fotografias reais não são o problema. Parar todas as imagens é uma reação exagerada.",
     "Mirar regiões com leis mais fracas continua enganando os clientes e cria risco reputacional."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-40",
@@ -8467,7 +8886,8 @@
     "A aleatoriedade não remove dados memorizados. O modelo ainda poderia revelá-los.",
     "Mais transcrições brutas adicionam mais dados pessoais para o modelo memorizar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-41",
@@ -8512,7 +8932,8 @@
     "Remover os filtros exporia as crianças a conteúdo nocivo.",
     "Nenhum modelo tem garantia de evitar conteúdo nocivo. O tamanho não substitui as salvaguardas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-42",
@@ -8552,7 +8973,8 @@
     "Pular os testes deixa um risco de equidade desconhecido em um processo de alto impacto.",
     "O uso opcional sem testes ainda expõe os candidatos a uma ferramenta não testada e cria tratamento inconsistente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-43",
@@ -8592,7 +9014,8 @@
     "Um aviso escondido em um documento longo não é transparência significativa, e os clientes podem não vê-lo.",
     "Os dados de ligações podem ser usados de forma responsável com consentimento. Parar totalmente a melhoria é desnecessário."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-44",
@@ -8632,7 +9055,8 @@
     "Esconder a mudança da equipe de privacidade remove a supervisão e aumenta o risco jurídico.",
     "Espalhar dados sensíveis por mais modelos multiplica o risco de privacidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-45",
@@ -8672,7 +9096,8 @@
     "Revisar as saídas depois que os clientes as relatam significa que o dano já aconteceu.",
     "As avaliações são a melhor evidência da empresa antes do lançamento. Ignorá-las remove um controle essencial."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-46",
@@ -8712,7 +9137,8 @@
     "Esperar reclamações significa que o dano já ocorreu.",
     "Remover as revisões deixa os problemas chegarem aos clientes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-47",
@@ -8752,7 +9178,8 @@
     "Manter dados para sempre aumenta o risco de privacidade e pode violar regulações.",
     "Esperar um regulador significa que a empresa pode já estar em não conformidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-48",
@@ -8792,7 +9219,8 @@
     "O tamanho do modelo não é critério de sucesso. O piloto deve usar o modelo que atenda aos seus requisitos.",
     "Contagens de prompts medem atividade, não sucesso nem segurança."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-49",
@@ -8832,7 +9260,8 @@
     "Encerrar conversas abruptamente frustraria clientes em situações difíceis.",
     "Os clientes não controlam quando surgem situações sensíveis. Um aviso não os protege."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-50",
@@ -8872,7 +9301,8 @@
     "Revisar depois do envio encontra os erros tarde demais para evitar as penalidades.",
     "Um aviso não torna o relatório preciso, e os reguladores continuam responsabilizando a empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-51",
@@ -8912,7 +9342,8 @@
     "Mesmo sistemas de baixo risco precisam de monitoramento para detectar problemas de qualidade cedo.",
     "Nenhum sistema atinge acurácia perfeita. Parar abriria mão do valor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-52",
@@ -8952,7 +9383,8 @@
     "Um pedido ajuda, mas os clientes ainda vão digitar números de cartão às vezes.",
     "Uma retenção mais longa mantém os dados sensíveis por mais tempo, o que aumenta o risco."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-53",
@@ -8992,7 +9424,8 @@
     "Ocultar a informação de confiança dá menos contexto aos revisores, o que dificulta um bom julgamento.",
     "Mais alertas por revisor os levariam a aprovar ainda mais rápido."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-54",
@@ -9032,7 +9465,8 @@
     "A aprovação unânime de todos cria novos atrasos e dilui a responsabilização.",
     "Dispensar a aprovação remove a governança das decisões de implantação."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-55",
@@ -9072,7 +9506,8 @@
     "Revisões mais lentas aumentariam o backlog.",
     "Fazer as equipes esperarem incentiva mais contornos e atrasa o valor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-56",
@@ -9112,7 +9547,8 @@
     "O fornecedor tem interesse comercial e não conhece o contexto de risco do banco.",
     "Menos documentação aumenta a preocupação regulatória e elimina a responsabilização."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-57",
@@ -9152,7 +9588,8 @@
     "Os riscos de IA são riscos de negócio, não apenas técnicos. O conselho precisa de visibilidade.",
     "Reportar apenas sucessos esconde os riscos que o conselho precisa supervisionar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-58",
@@ -9192,7 +9629,8 @@
     "As regras variam por mercado. Seguir a lei de um mercado pode não atender à de outro.",
     "Renomear o produto não muda o que ele faz nem quais regras se aplicam."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-59",
@@ -9232,7 +9670,8 @@
     "Remover apenas os nomes pode não desidentificar as notas, e o restante do conteúdo ainda pode ser regulado.",
     "Decisões caso a caso são inconsistentes e tendem a violar a regra."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-60",
@@ -9272,7 +9711,8 @@
     "Sem os inputs, a financeira não consegue mostrar por que uma decisão foi tomada.",
     "O modelo atual pode dar resultados diferentes, então não consegue mostrar como as decisões passadas foram tomadas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-61",
@@ -9312,7 +9752,8 @@
     "O orçamento é uma questão prática, não um requisito de compliance.",
     "O volume de dados afeta a qualidade do modelo, não a licitude do uso."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-62",
@@ -9352,7 +9793,8 @@
     "Identificar o e-mail como escrito por IA não torna suas afirmações conformes.",
     "A discricionariedade individual cria compliance inconsistente e lacunas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-63",
@@ -9392,7 +9834,8 @@
     "Remover os arquivos tira valor da equipe jurídica quando os controles de acesso resolvem o problema.",
     "Confiança não é um controle. O assistente poderia revelar os arquivos a qualquer pessoa que perguntasse."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-64",
@@ -9432,7 +9875,8 @@
     "Remover a criptografia exporia os dados dos clientes e violaria a política.",
     "Armazenar as chaves junto com os dados anula o propósito da criptografia."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-65",
@@ -9472,7 +9916,8 @@
     "Manter logs sensíveis para sempre aumenta o risco e pode violar regras de retenção.",
     "Um repositório público exporia os dados dos clientes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-66",
@@ -9512,7 +9957,8 @@
     "Mais dados reais nos ambientes de teste aumentam a exposição.",
     "A exclusão posterior não protege os dados enquanto estão em um ambiente mais fraco e depende de cada desenvolvedor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-67",
@@ -9552,7 +9998,8 @@
     "As decisões humanas não eliminam o risco se a ordenação define quem os gestores consideram.",
     "O tipo de dado não determina o risco. O impacto nas pessoas, sim."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-68",
@@ -9592,7 +10039,8 @@
     "O risco vem do caso de uso, não apenas do modelo.",
     "Os clientes não conseguem julgar a acurácia da ferramenta. A empresa continua responsável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-69",
@@ -9632,7 +10080,8 @@
     "Os riscos surgem em todas as etapas, não apenas no treinamento.",
     "A classificação determina quanto monitoramento é necessário. Ela não o substitui."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-70",
@@ -9672,7 +10121,8 @@
     "O modelo é o mesmo, mas sua autoridade não. O risco depende do que o modelo tem permissão para fazer.",
     "A aprovação anterior cobria recomendações, não pagamentos automáticos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-71",
@@ -9717,7 +10167,8 @@
     "O tamanho da documentação não diz nada sobre o comportamento em produção.",
     "As cores da interface não afetam qualidade nem segurança."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-72",
@@ -9757,7 +10208,8 @@
     "Desligar o guardrail removeria a proteção durante um aparente ataque.",
     "Esperar um mês dá tempo aos atacantes para encontrar uma brecha."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-73",
@@ -9797,7 +10249,8 @@
     "Congelar o agente impede correções e melhorias.",
     "Uma revisão anual é lenta demais para responder a um problema em andamento."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-74",
@@ -9837,7 +10290,8 @@
     "Mudanças econômicas e na base de clientes podem degradar um modelo sem nenhuma atualização do fornecedor.",
     "Os dias de uso não têm relação com o modelo continuar tendo bom desempenho."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-75",
@@ -9877,7 +10331,8 @@
     "O design dos dashboards não cria viés nas previsões.",
     "A escolha do fornecedor não explica um padrão que vem dos rótulos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-76",
@@ -9917,7 +10372,8 @@
     "O custo de hospedagem depende do uso, não dos tons de pele nas imagens.",
     "O modelo continuará funcionando, mas sua acurácia pode variar entre grupos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-77",
@@ -9957,7 +10413,8 @@
     "O tamanho do modelo não explica as diferenças de resultado. O proxy, sim.",
     "Remover um atributo pode manter o viés quando restam proxies."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-78",
@@ -9997,7 +10454,8 @@
     "Código gerado pode se parecer com código licenciado, então as obrigações podem se aplicar.",
     "A discricionariedade individual leva a um compliance inconsistente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-79",
@@ -10037,7 +10495,8 @@
     "A empresa é responsável pelo que seu serviço produz.",
     "A resolução não impede que imagens nocivas sejam geradas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-80",
@@ -10077,7 +10536,8 @@
     "Armazenar livros protegidos para treinamento adiciona mais risco de propriedade intelectual (PI).",
     "A empresa ainda pode enfrentar riscos pela forma como seu serviço é usado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-81",
@@ -10117,7 +10577,8 @@
     "O tamanho do modelo não afeta a proteção de PI.",
     "Um roadmap não trata a responsabilidade pelo conteúdo gerado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-82",
@@ -10157,7 +10618,8 @@
     "Tolerar dados ausentes esconde o problema em vez de detectá-lo.",
     "Retreinar com dados quebrados pioraria o modelo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-83",
@@ -10197,7 +10659,8 @@
     "Um aviso não corrige as respostas.",
     "Ocultar as citações elimina a evidência de que os usuários precisam para identificar problemas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-84",
@@ -10237,7 +10700,8 @@
     "Uma pesquisa seis meses depois encontra os problemas tarde demais.",
     "Nunca atualizar deixa a empresa em versões descontinuadas ou sem suporte e perde melhorias."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d3-85",
@@ -10277,7 +10741,95 @@
     "Mais aleatoriedade torna os números menos confiáveis, não mais.",
     "Publicar mais rápido espalha os erros mais rápido."
    ]
-  }
+  },
+  "source": "zghanw"
+ },
+ {
+  "id": "d3-86",
+  "domain": 3,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "A company runs an internal assistant on Amazon Bedrock. An audit finds that the assistant's access role lets any employee invoke the model and read a knowledge base that contains HR records. A manager says that AWS must fix this, because Bedrock is a managed service.",
+   "question": "Who is responsible for fixing this issue, and why?",
+   "options": [
+    "The company, because access configuration is part of its security in the cloud",
+    "AWS, because choosing a managed service makes AWS responsible for all of its security",
+    "The model provider, because its foundation model processes the HR records",
+    "No one, because managed AI services do not need any access controls at all"
+   ],
+   "rationales": [
+    "Under the shared responsibility model, AWS secures the cloud infrastructure, and the customer secures what it configures in the cloud, including identity, access, and its data. The overly broad role is the company's configuration to fix.",
+    "Managed services shift some tasks to AWS, but customers still own their data and access configuration.",
+    "The model provider is responsible for its model, not for who the company allows to read its HR records.",
+    "Any service that touches sensitive data needs access controls. The audit shows exactly why."
+   ]
+  },
+  "pt": {
+   "scenario": "Uma empresa opera um assistente interno no Amazon Bedrock. Uma auditoria descobre que o papel de acesso do assistente permite que qualquer funcionário invoque o modelo e leia uma base de conhecimento que contém registros de RH. Um gestor diz que a AWS precisa corrigir isso, porque o Bedrock é um serviço gerenciado.",
+   "question": "Quem é responsável por corrigir esse problema, e por quê?",
+   "options": [
+    "A empresa, porque a configuração de acesso faz parte da sua segurança na nuvem",
+    "A AWS, porque escolher um serviço gerenciado torna a AWS responsável por toda a segurança dele",
+    "O provedor do modelo, porque seu foundation model processa os registros de RH",
+    "Ninguém, porque serviços gerenciados de IA não precisam de nenhum controle de acesso"
+   ],
+   "rationales": [
+    "No modelo de responsabilidade compartilhada, a AWS protege a infraestrutura da nuvem, e o cliente protege o que configura na nuvem, incluindo identidade, acesso e seus dados. O papel com permissões amplas demais é uma configuração da empresa, e cabe a ela corrigi-lo.",
+    "Serviços gerenciados transferem algumas tarefas para a AWS, mas os clientes continuam donos de seus dados e de sua configuração de acesso.",
+    "O provedor do modelo é responsável pelo modelo, não por quem a empresa autoriza a ler seus registros de RH.",
+    "Qualquer serviço que lide com dados sensíveis precisa de controles de acesso. A auditoria mostra exatamente o porquê."
+   ]
+  },
+  "source": "original"
+ },
+ {
+  "id": "d3-87",
+  "domain": 3,
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true,
+  "en": {
+   "scenario": "A company classified an AI assistant that summarizes supplier contracts as medium risk. The governance team wants clear triggers for reassessing the risk tier of AI use cases.",
+   "question": "Which events should trigger a reassessment of this assistant's risk tier? (Select TWO.)",
+   "options": [
+    "A new regulation in one market sets rules for automated decisions about suppliers",
+    "The team plans to let the assistant reject supplier contracts without any review",
+    "The assistant's interface changes from a light color theme to a dark color theme",
+    "The vendor publishes a blog post that describes its general product roadmap",
+    "The finance team moves its monthly usage report to a different dashboard tool"
+   ],
+   "rationales": [
+    "Risk classification depends on the regulatory context. A new rule that covers automated decisions about suppliers may raise the obligations for this use case.",
+    "Letting the assistant act without review increases its autonomy, which is a key risk factor. The use case may now need a higher tier and stronger controls.",
+    "A change in color theme does not affect what the assistant does or the risks that it creates.",
+    "A general roadmap post does not change how the company uses the assistant or the rules that apply.",
+    "Moving a report to another dashboard changes how usage is displayed, not the risk of the use case."
+   ]
+  },
+  "pt": {
+   "scenario": "Uma empresa classificou como de risco médio um assistente de IA que resume contratos de fornecedores. A equipe de governança quer gatilhos claros para reavaliar o nível de risco dos casos de uso de IA.",
+   "question": "Quais eventos devem disparar uma reavaliação do nível de risco desse assistente? (Selecione DUAS.)",
+   "options": [
+    "Uma nova regulação em um mercado define regras para decisões automatizadas sobre fornecedores",
+    "A equipe planeja deixar o assistente recusar contratos de fornecedores sem nenhuma revisão",
+    "A interface do assistente muda de um tema de cores claro para um tema de cores escuro",
+    "O fornecedor publica um post de blog descrevendo seu roadmap geral de produto",
+    "A equipe financeira passa seu relatório mensal de uso para outra ferramenta de dashboard"
+   ],
+   "rationales": [
+    "A classificação de risco depende do contexto regulatório. Uma nova regra que cubra decisões automatizadas sobre fornecedores pode aumentar as obrigações deste caso de uso.",
+    "Deixar o assistente agir sem revisão aumenta sua autonomia, que é um fator-chave de risco. O caso de uso pode passar a precisar de um nível mais alto e de controles mais fortes.",
+    "Uma mudança no tema de cores não afeta o que o assistente faz nem os riscos que ele cria.",
+    "Um post genérico sobre o roadmap não muda como a empresa usa o assistente nem as regras que se aplicam.",
+    "Passar um relatório para outro dashboard muda como o uso é exibido, não o risco do caso de uso."
+   ]
+  },
+  "source": "original"
  },
  {
   "id": "d4-01",
@@ -10317,7 +10869,8 @@
     "Propostas de fornecedores descrevem produtos, não a prontidão da empresa. Elas não revelam lacunas de capacidade internas.",
     "Mais detalhe técnico continua deixando de fora pessoas, processos e governança. Muitas iniciativas de IA falham por motivos organizacionais, e não técnicos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-02",
@@ -10357,7 +10910,8 @@
     "A capacidade de computação não é a restrição. Mais computação processa dados inconsistentes mais rápido, mas não os torna consistentes.",
     "O tamanho do modelo não resolve definições conflitantes de cliente. Dados ruins limitam os resultados de qualquer modelo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-03",
@@ -10402,7 +10956,8 @@
     "O número de bancos de dados não diz nada sobre qualidade ou acessibilidade. Mais bancos podem até significar mais silos.",
     "A atualidade só importa em relação ao caso de uso. Dados históricos costumam ser essenciais para o treinamento."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-04",
@@ -10442,7 +10997,8 @@
     "Mais pilotos desconectados aumentariam a fragmentação. O programa precisa de direção, não de mais pilotos.",
     "Um padrão de código é um detalhe técnico. Ele não dá a ninguém autoridade sobre orçamentos ou conflitos de dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-05",
@@ -10482,7 +11038,8 @@
     "O silêncio deixa boatos e medo crescerem. O guia do exame enfatiza a comunicação transparente sobre cronogramas e efeitos nos papéis.",
     "Uma falsa garantia sai pela culatra quando os papéis de fato mudam. Ela prejudica a confiança na liderança."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-06",
@@ -10522,7 +11079,8 @@
     "A destilação de modelos treina um modelo menor a partir de um maior. É uma técnica, não uma abordagem de gestão da mudança.",
     "Um CoE de IA é uma equipe central que define padrões e viabiliza a adoção. O cenário descreve pares inseridos em cada equipe, o que é uma rede de champions. Os dois costumam trabalhar juntos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-07",
@@ -10567,7 +11125,8 @@
     "Bloquear todo uso externo impede o negócio de adotar IA. Os CoEs viabilizam a adoção dentro da governança, em vez de proibi-la.",
     "As responsabilidades jurídicas ficam com a equipe jurídica. O CoE trabalha com o jurídico na governança de IA, mas não o substitui."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-08",
@@ -10607,7 +11166,8 @@
     "Uma POC serve para reduzir incertezas, não para prever tudo. As lacunas podem ser corrigidas antes de uma implantação em fases.",
     "Repetir a POC com os mesmos documentos não acrescenta nenhuma informação nova sobre a prontidão para produção."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-09",
@@ -10647,7 +11207,8 @@
     "Esperar uma expertise universal atrasa o valor indefinidamente. As competências crescem junto com a adoção.",
     "O roadmap de outra empresa reflete a estratégia, os dados e a prontidão dela. Pode não servir a esta empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-10",
@@ -10687,7 +11248,8 @@
     "A documentação é o que torna as soluções reutilizáveis. Removê-la atrasa todas as implantações seguintes.",
     "O monitoramento detecta drift, estouros de custo e falhas. Pulá-lo cria um risco que cresce a cada implantação."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-11",
@@ -10727,7 +11289,8 @@
     "Ferramentas sem competências levam a baixa adoção e a projetos fracassados.",
     "Esperar não atende à meta de um ano nem permite iniciar projetos agora."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-12",
@@ -10767,7 +11330,8 @@
     "Um letramento amplo em IA permite que todos usem a IA de forma responsável, identifiquem oportunidades e entendam os limites. Líderes precisam de profundidade em estratégia e governança, profissionais técnicos de profundidade técnica, e todos os usuários de treinamento em uso responsável.",
     "O treinamento do help desk apoia as ferramentas, mas não prepara os funcionários que usam IA todos os dias."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-13",
@@ -10807,7 +11371,8 @@
     "Refazer toda saída elimina o ganho de eficiência. A revisão deve ser proporcional ao risco.",
     "Separar o trabalho perde o benefício da colaboração. As pessoas devem supervisionar e melhorar a saída da IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-14",
@@ -10847,7 +11412,8 @@
     "O modelo de responsabilidade compartilhada define quais tarefas de segurança são da AWS e quais são do cliente. Não é um framework de transformação.",
     "A Calculadora de Preços da AWS estima custos. Ela não oferece orientações de transformação."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-15",
@@ -10887,7 +11453,8 @@
     "As seis perspectivas do AWS CAF são Negócios, Pessoas, Governança, Plataforma, Segurança e Operações. Marketing não é uma delas.",
     "Governança é uma perspectiva do AWS CAF. Ela cobre a gestão e a supervisão das iniciativas de nuvem e IA, incluindo o uso responsável da IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-16",
@@ -10927,7 +11494,8 @@
     "A perspectiva de Operações cobre a operação e o suporte das workloads. Ela não trata de resistência à mudança nem de design organizacional.",
     "A perspectiva de Segurança cobre a proteção de dados e sistemas. Ela não trata de cultura nem de competências."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-17",
@@ -10967,7 +11535,8 @@
     "O AWS Cost Explorer analisa gastos na AWS. Ele não responde perguntas de negócio sobre os dados da empresa.",
     "O Amazon Bedrock Knowledge Bases oferece retrieval-augmented generation (RAG) gerenciado para desenvolvedores que constroem aplicações. A equipe quer um workspace pronto, não um componente para uma aplicação customizada."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-18",
@@ -11007,7 +11576,8 @@
     "O AWS Marketplace serve para adquirir software de terceiros, e o AWS Cost Explorer analisa gastos. Nenhum deles constrói aplicações de GenAI nem treina modelos de ML.",
     "O Amazon Quick é um workspace para usuários de negócio, e a Calculadora de Preços da AWS estima custos. Nenhum deles atende aos requisitos de qualquer das equipes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-19",
@@ -11047,7 +11617,8 @@
     "Mudanças de preço não têm relação com a qualidade. Esperar uma renovação deixa os problemas de qualidade sem tratamento.",
     "Reconstruções anuais são caras e disruptivas. Também ignoram o feedback entre uma reconstrução e outra."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-20",
@@ -11087,7 +11658,8 @@
     "A complexidade aumenta a chance de fracasso. Um primeiro piloto fracassado prejudica o momentum de todo o programa.",
     "Sem métricas de sucesso, a empresa não consegue mostrar valor. O piloto não geraria credibilidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-21",
@@ -11132,7 +11704,8 @@
     "Uma equipe só de ciência de dados não tem as perspectivas de negócio e de compliance. A velocidade ganha no início se perde depois em retrabalho.",
     "Excluir as partes interessadas até o lançamento leva a soluções que não se encaixam no negócio nem atendem aos requisitos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-22",
@@ -11172,7 +11745,8 @@
     "Interromper todos os experimentos perde momentum e aprendizado. As bases podem ser construídas enquanto os pilotos promissores continuam.",
     "Mais ferramentas aumentam a fragmentação. A empresa precisa de bases compartilhadas, não de mais experimentos isolados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-23",
@@ -11212,7 +11786,8 @@
     "Remover gerentes gera medo em toda a organização e não trata a barreira cultural.",
     "A resistência dos gerentes bloqueia a adoção. Ignorá-la deixa o problema continuar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-24",
@@ -11257,7 +11832,8 @@
     "Concentrar o conhecimento em uma equipe limita o aprendizado e desacelera a adoção.",
     "Proibir a discussão leva o uso de IA para a clandestinidade e bloqueia o aprendizado compartilhado."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-25",
@@ -11297,7 +11873,8 @@
     "O número de usuários sozinho ignora custo, qualidade e compliance. A adoção é uma medida entre várias.",
     "O tamanho do modelo não trata regulações locais, suporte nem custo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-26",
@@ -11337,7 +11914,8 @@
     "Abordagens que começam pela ferramenta frequentemente não geram valor. Os problemas de negócio devem orientar a escolha das ferramentas.",
     "A governança importa, mas um roadmap que nunca pilota nunca entrega valor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-27",
@@ -11377,7 +11955,8 @@
     "O problema é organizacional, não a qualidade do modelo. Resultados técnicos melhores não criam um dono nem um caminho de financiamento.",
     "Mais tempo não resolve a falta de dono nem de critérios de decisão."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-28",
@@ -11417,7 +11996,8 @@
     "Critérios acordados previamente transformam o fim de um piloto em uma decisão disciplinada de escalar, pausar ou encerrar, em vez de um debate movido por entusiasmo ou custos irrecuperáveis.",
     "As partes interessadas do negócio devem ajudar a definir os critérios e tomar a decisão. Os gates apoiam esse envolvimento."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-29",
@@ -11457,7 +12037,8 @@
     "Um congelamento interrompe a entrega de valor e não aproveita as competências crescentes das unidades de negócio.",
     "Centralizar mais trabalho piora o gargalo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-30",
@@ -11497,7 +12078,8 @@
     "Recuar ignora o problema de encaixe que os usuários relataram. O uso provavelmente continuaria caindo.",
     "Restringir o acesso tira a ferramenta das pessoas que precisam dela."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-31",
@@ -11537,7 +12119,8 @@
     "O lançamento leva soluções validadas para a produção com governança e monitoramento. Nenhuma implantação em produção ocorreu ainda.",
     "A escala expande soluções comprovadas para toda a empresa, e a organização ainda não validou nenhuma solução. Observe que o AWS CAF usa uma sequência diferente: envision, align, launch, scale."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-32",
@@ -11577,7 +12160,8 @@
     "A implantação em produção para uma unidade de negócio, com governança e monitoramento, é o lançamento. A empresa já fez isso.",
     "Expandir para toda a empresa com componentes reutilizáveis, papéis claros e um modelo operacional é a escala, a última fase de envision, experiment, launch, scale."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-33",
@@ -11617,7 +12201,8 @@
     "Ranquear publicamente os fracassos reforça o medo que bloqueia a experimentação.",
     "Terceirizar evita a barreira em vez de tratá-la, e a empresa não desenvolve capacidade interna."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-34",
@@ -11657,7 +12242,8 @@
     "O monitoramento é como o banco detecta falhas e limites de capacidade durante a escala. Removê-lo aumenta o risco.",
     "Nenhum modelo atinge 100% de acurácia. Esperar a perfeição atrasa o valor indefinidamente."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-35",
@@ -11697,7 +12283,8 @@
     "A pesquisa mostra forte apoio executivo.",
     "O cenário não descreve problemas de qualidade dos dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-36",
@@ -11737,7 +12324,8 @@
     "A estratégia de IA é uma decisão de negócio. Um executivo decidindo sozinho não cria alinhamento.",
     "Um fornecedor não pode definir as prioridades estratégicas da empresa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-37",
@@ -11777,7 +12365,8 @@
     "A revisão não descreve resistência cultural.",
     "A revisão não menciona volume de dados. Todas as lacunas são de governança."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-38",
@@ -11822,7 +12411,8 @@
     "Compras planejadas são intenções, não capacidade existente.",
     "A idade de um servidor diz pouco sobre a prontidão para suportar IA."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-39",
@@ -11862,7 +12452,8 @@
     "As soluções já funcionam em produção. Recomeçá-las desperdiça progresso.",
     "Parar todo o trabalho perde momentum. A padronização pode avançar junto com as entregas."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-40",
@@ -11902,7 +12493,8 @@
     "Modelos de maturidade apoiam a estratégia. Eles não a substituem.",
     "Modelos de maturidade avaliam capacidades organizacionais, não funcionários individuais."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-41",
@@ -11942,7 +12534,8 @@
     "A maturidade vem de fazer o trabalho. Parar impede o progresso.",
     "Nenhuma plataforma substitui as capacidades organizacionais que a maturidade exige."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-42",
@@ -11982,7 +12575,8 @@
     "O uso de ferramentas não aprovadas indica governança fraca, não maturidade.",
     "Um projeto sem métricas de sucesso não consegue mostrar valor, o que indica baixa maturidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-43",
@@ -12022,7 +12616,8 @@
     "Os funcionários estão enviando ideias. A lacuna está em como as ideias são tratadas.",
     "O cenário mostra estrutura de menos, não políticas demais."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-44",
@@ -12062,7 +12657,8 @@
     "Menos reuniões aumentariam a distância entre negócio e equipes técnicas.",
     "Remover aprovações adiciona risco e não cria responsabilização."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-45",
@@ -12102,7 +12698,8 @@
     "O cenário não descreve complexidade de governança.",
     "Ler com cuidado é bom. A lacuna é a falta de testes sistemáticos."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-46",
@@ -12142,7 +12739,8 @@
     "Competências de redação não tratam a governança de IA de alto risco.",
     "Remover a revisão deixa os casos de uso de alto risco sem nenhum controle."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-47",
@@ -12182,7 +12780,8 @@
     "Uma divisão igual ignora que um único investimento desbloqueia a maior parte do portfólio.",
     "Novos modelos não resolvem a falta de integração dos dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-48",
@@ -12222,7 +12821,8 @@
     "Uma lista sem ordem nem responsáveis não é um plano.",
     "Tentar fechar todas as lacunas de uma vez sobrecarrega a organização."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-49",
@@ -12262,7 +12862,8 @@
     "Um ano sem resultados arrisca perder o apoio do conselho.",
     "Esperar atrasa tanto as bases quanto o valor."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-50",
@@ -12302,7 +12903,8 @@
     "O cenário não diz que os dados estão desatualizados.",
     "A representatividade diz respeito a se os dados refletem a população. O problema é que os dados nem podem ser alcançados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-51",
@@ -12342,7 +12944,8 @@
     "Mais dados não corrigem problemas de qualidade desconhecidos nos dados existentes.",
     "O uso diário não prova qualidade. Os usuários podem estar contornando erros."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-52",
@@ -12382,7 +12985,8 @@
     "O modelo lê de apenas um sistema, então não seria mais lento por esse motivo.",
     "Usar menos dados não torna um modelo justo e pode esconder padrões importantes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-53",
@@ -12422,7 +13026,8 @@
     "Fazer a média das definições cria uma terceira definição sem responsável.",
     "Os modelos não podem decidir definições de negócio."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-54",
@@ -12462,7 +13067,8 @@
     "Um drive compartilhado aberto expõe dados sensíveis a todos.",
     "Modelos separados não conseguem ver os dados combinados de que a iniciativa precisa."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-55",
@@ -12502,7 +13108,8 @@
     "Vitórias fáceis em dados não usados geram pouco valor.",
     "Os casos de uso de IA não chegam à produção sem suas bases de dados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-56",
@@ -12542,7 +13149,8 @@
     "Os dados podem ser compartilhados com parceiros com as salvaguardas certas.",
     "Compartilhar com qualquer um que pedir elimina o controle e cria risco de privacidade."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-57",
@@ -12582,7 +13190,8 @@
     "Construir um data center atrasa o valor por anos.",
     "Laptops não conseguem rodar aplicações de IA em produção de forma segura e confiável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-58",
@@ -12627,7 +13236,8 @@
     "Uma capacidade fixa na média falharia nos picos, quando o volume triplica.",
     "Implantações manuais de fim de semana por uma pessoa são lentas e arriscadas. Elas não tratam desempenho nem escala."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-59",
@@ -12667,7 +13277,8 @@
     "Uma interface de chat não dá ao agente acesso aos sistemas que ele precisa atualizar.",
     "Anunciar um agente que ainda não funciona cria expectativas que a empresa não consegue cumprir."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-60",
@@ -12707,7 +13318,8 @@
     "O orçamento não trata as lacunas de segurança.",
     "Um chatbot não corrige as bases de segurança subjacentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-61",
@@ -12747,7 +13359,8 @@
     "Revisar prompts individuais não é um papel de liderança e não escala.",
     "Aprovações administrativas não são o que significa patrocínio."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-62",
@@ -12787,7 +13400,8 @@
     "Os champions trabalham ao lado dos colegas. Os executivos oferecem patrocínio, que é um papel diferente.",
     "A escolha aleatória ignora credibilidade e interesse, que são o que move a influência de um champion."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-63",
@@ -12827,7 +13441,8 @@
     "Uma lista de fornecedores não explica o propósito do programa.",
     "A divulgação separada reforça a impressão de projetos desconectados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-64",
@@ -12867,7 +13482,8 @@
     "Retirar o jurídico acelera as decisões, mas aumenta o risco de compliance.",
     "Exigir aprovação unânime torna os travamentos mais prováveis."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-65",
@@ -12907,7 +13523,8 @@
     "Uma revisão mais curta não corrige designs que já violam as regras.",
     "Equipes sem expertise em compliance não conseguem decidir de forma confiável quais regras se aplicam."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-66",
@@ -12947,7 +13564,8 @@
     "O marketing sozinho não tem expertise técnica nem de compliance.",
     "Um fornecedor não pode ser dono do relacionamento da empresa com os clientes nem de sua responsabilização."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-67",
@@ -12987,7 +13605,8 @@
     "O silêncio deixa a equipe despreparada para os erros iniciais.",
     "Afirmar que a IA substitui o julgamento distorce seu papel e aumenta o medo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-68",
@@ -13027,7 +13646,8 @@
     "O silêncio deixa os boatos crescerem e aumenta a ansiedade.",
     "Manter o plano em segredo alimenta os boatos e mina a confiança nos gerentes."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-69",
@@ -13067,7 +13687,8 @@
     "Revisar as perguntas uma vez por ano é lento demais.",
     "Recusar-se a responder perguntas aumenta a incerteza e a resistência."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-70",
@@ -13107,7 +13728,8 @@
     "Dispositivos pessoais ficam fora dos controles da empresa, o que aumenta o risco de compliance.",
     "A punição aumenta o medo, que é justamente a barreira a tratar."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-71",
@@ -13147,7 +13769,8 @@
     "Substituir especialistas perde conhecimento crítico.",
     "Ignorar as objeções mantém a resistência e pode deixar passar limitações reais."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-72",
@@ -13187,7 +13810,8 @@
     "Rankings competitivos desestimulam o compartilhamento.",
     "Obrigar cada equipe a reconstruir desperdiça esforço e bloqueia a reutilização."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-73",
@@ -13227,7 +13851,8 @@
     "Proibir o uso até a conclusão do treinamento impede a prática que desenvolve as competências.",
     "Ler sem praticar desenvolve pouca competência prática."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-74",
@@ -13267,7 +13892,8 @@
     "Premiar o volume incentiva o uso sem cuidado.",
     "Detalhes de arquitetura não ensinam os funcionários a usar o assistente de forma responsável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-75",
@@ -13307,7 +13933,8 @@
     "Aprender sozinho, sem estrutura, deixa lacunas e práticas inconsistentes.",
     "Um curso técnico sobrecarregaria ainda mais a equipe não técnica."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-76",
@@ -13347,7 +13974,8 @@
     "O tamanho do curso não mostra eficácia.",
     "Gostar do design não mostra que as competências mudaram."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-77",
@@ -13387,7 +14015,8 @@
     "Observar cada transação não é uma forma escalável de supervisão.",
     "Papéis indefinidos geram ansiedade e desperdiçam as competências da equipe."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-78",
@@ -13427,7 +14056,8 @@
     "Consultas de status de pedido são rotineiras e muito adequadas à IA.",
     "Horários das lojas são fatos simples que a IA responde de forma confiável."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-79",
@@ -13467,7 +14097,8 @@
     "Sem apoio, muitos auxiliares terão dificuldade para migrar para novas funções.",
     "Ignorar as ferramentas abre mão do valor e deixa os auxiliares despreparados."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-80",
@@ -13507,7 +14138,8 @@
     "Expandir soluções comprovadas pertence à fase de escala.",
     "Pilotos estruturados pertencem à fase de experimentação."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-81",
@@ -13547,7 +14179,8 @@
     "Provas de conceito pertencem à fase de experimentação.",
     "Plataformas reutilizáveis para toda a empresa são um foco da fase de escala."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-82",
@@ -13587,7 +14220,8 @@
     "Pular pilotos tende a aumentar os custos quando surgem problemas em escala.",
     "Pular a experimentação produz menos evidências, não mais."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-83",
@@ -13627,7 +14261,8 @@
     "A liderança disse que só vai financiar depois de ver resultados.",
     "Pausar não produz resultados, então o orçamento nunca chega."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-84",
@@ -13672,7 +14307,8 @@
     "O sigilo impede que as unidades aprendam umas com as outras.",
     "Uma única reunião anual é infrequente demais para capturar ideias cedo."
    ]
-  }
+  },
+  "source": "zghanw"
  },
  {
   "id": "d4-85",
@@ -13717,6 +14353,130 @@
     "Um e-mail para uma pessoa não é um processo de gestão de incidentes.",
     "Uma única estação de trabalho não consegue atender com confiabilidade 5.000 usuários por dia."
    ]
-  }
+  },
+  "source": "zghanw"
+ },
+ {
+  "id": "d4-86",
+  "domain": 4,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "A CFO's team wants to show the board the results of the company's AI program. Business analysts, with no development support, want to build dashboards of adoption and cost by business unit, and to ask questions about the results in plain language.",
+   "question": "Which AWS service BEST fits this need?",
+   "options": [
+    "Amazon Quick",
+    "Amazon SageMaker AI",
+    "AWS Pricing Calculator",
+    "Amazon Bedrock Guardrails"
+   ],
+   "rationales": [
+    "Amazon Quick is an AI-powered workspace for business users. It combines business intelligence dashboards with natural-language questions about company data, with no application to build.",
+    "SageMaker AI is a platform for building and training machine learning models. It requires technical skills and does not provide ready-made business dashboards.",
+    "AWS Pricing Calculator estimates the cost of planned services. It does not analyze program results or build dashboards.",
+    "Bedrock Guardrails applies safety controls to generative AI applications. It is not a reporting or analytics tool."
+   ]
+  },
+  "pt": {
+   "scenario": "A equipe do CFO quer mostrar ao conselho os resultados do programa de IA da empresa. Os analistas de negócio, sem apoio de desenvolvimento, querem montar dashboards de adoção e custo por unidade de negócio e fazer perguntas sobre os resultados em linguagem natural.",
+   "question": "Qual serviço da AWS MELHOR atende a essa necessidade?",
+   "options": [
+    "Amazon Quick",
+    "Amazon SageMaker AI",
+    "Calculadora de Preços da AWS (AWS Pricing Calculator)",
+    "Amazon Bedrock Guardrails"
+   ],
+   "rationales": [
+    "O Amazon Quick é um workspace com IA para usuários de negócio. Ele combina dashboards de business intelligence com perguntas em linguagem natural sobre os dados da empresa, sem aplicação para construir.",
+    "O SageMaker AI é uma plataforma para construir e treinar modelos de machine learning. Ele exige competências técnicas e não oferece dashboards de negócio prontos.",
+    "A Calculadora de Preços da AWS estima o custo de serviços planejados. Ela não analisa resultados do programa nem monta dashboards.",
+    "O Bedrock Guardrails aplica controles de segurança a aplicações de IA generativa. Não é uma ferramenta de relatórios nem de análise."
+   ]
+  },
+  "source": "original"
+ },
+ {
+  "id": "d4-87",
+  "domain": 4,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "A company uses the AWS Cloud Adoption Framework (AWS CAF) to assess its AI readiness. The assessment finds that no one has defined who approves AI use cases, how AI risks are reported to the board, or how the benefits of AI investments are tracked after launch.",
+   "question": "Which AWS CAF perspective do these gaps MOST directly belong to?",
+   "options": [
+    "Governance",
+    "Platform",
+    "Operations",
+    "Security"
+   ],
+   "rationales": [
+    "The Governance perspective covers how initiatives are directed and overseen, including decision rights, risk management, and benefits management. Approval ownership, risk reporting, and benefit tracking all belong here.",
+    "The Platform perspective covers the technical foundation, such as architecture and data platforms. The gaps described are about oversight, not technology.",
+    "The Operations perspective covers running and supporting workloads day to day. It does not define who approves use cases or how benefits are tracked.",
+    "The Security perspective covers protecting data and systems. The gaps concern decisions, risk reporting, and value tracking."
+   ]
+  },
+  "pt": {
+   "scenario": "Uma empresa usa o AWS Cloud Adoption Framework (AWS CAF) para avaliar sua prontidão para IA. A avaliação descobre que ninguém definiu quem aprova os casos de uso de IA, como os riscos de IA são reportados ao conselho nem como os benefícios dos investimentos em IA são acompanhados após o lançamento.",
+   "question": "A qual perspectiva do AWS CAF essas lacunas pertencem MAIS diretamente?",
+   "options": [
+    "Governança",
+    "Plataforma",
+    "Operações",
+    "Segurança"
+   ],
+   "rationales": [
+    "A perspectiva de Governança cobre como as iniciativas são direcionadas e supervisionadas, incluindo direitos de decisão, gestão de riscos e gestão de benefícios. A definição de quem aprova, o reporte de riscos e o acompanhamento de benefícios pertencem a ela.",
+    "A perspectiva de Plataforma cobre a base técnica, como arquitetura e plataformas de dados. As lacunas descritas são de supervisão, não de tecnologia.",
+    "A perspectiva de Operações cobre a operação e o suporte das workloads no dia a dia. Ela não define quem aprova casos de uso nem como os benefícios são acompanhados.",
+    "A perspectiva de Segurança cobre a proteção de dados e sistemas. As lacunas dizem respeito a decisões, reporte de riscos e acompanhamento de valor."
+   ]
+  },
+  "source": "original"
+ },
+ {
+  "id": "d4-88",
+  "domain": 4,
+  "correct": [
+   0
+  ],
+  "multi": false,
+  "en": {
+   "scenario": "An insurer is moving an AI claims-intake assistant from a pilot in one call center to production in all twelve. During the pilot, the data science team fixed problems directly whenever agents messaged them.",
+   "question": "Which gap MOST threatens reliable operation in production?",
+   "options": [
+    "No defined support model with owners, an escalation path, and an incident process",
+    "The pilot used a smaller foundation model than the one planned for production",
+    "The assistant's interface has not yet been translated into a second customer language",
+    "The marketing team has not yet announced the rollout to the insurer's customers"
+   ],
+   "rationales": [
+    "Informal fixes by the data science team do not scale to twelve call centers. Production needs operational readiness: clear owners, an escalation path, and an incident process, so that problems are resolved quickly and consistently.",
+    "A model change should be tested before rollout, but the scenario does not show that the model choice threatens reliability. The missing support model clearly does.",
+    "Translation may matter for some users, but the scenario does not mention language needs. It does not threaten reliable operation.",
+    "Customer announcements affect awareness, not whether the assistant runs reliably in the call centers."
+   ]
+  },
+  "pt": {
+   "scenario": "Uma seguradora está levando um assistente de IA de abertura de sinistros de um piloto em uma central de atendimento para a produção em todas as doze. Durante o piloto, a equipe de ciência de dados corrigia os problemas diretamente sempre que os atendentes mandavam mensagem.",
+   "question": "Qual lacuna MAIS ameaça a operação confiável em produção?",
+   "options": [
+    "Não há um modelo de suporte definido, com responsáveis, caminho de escalonamento e processo de incidentes",
+    "O piloto usou um foundation model menor que o planejado para a produção",
+    "A interface do assistente ainda não foi traduzida para um segundo idioma dos clientes",
+    "A equipe de marketing ainda não anunciou a implantação aos clientes da seguradora"
+   ],
+   "rationales": [
+    "Correções informais da equipe de ciência de dados não escalam para doze centrais. A produção precisa de prontidão operacional: responsáveis claros, um caminho de escalonamento e um processo de incidentes, para que os problemas sejam resolvidos de forma rápida e consistente.",
+    "Uma mudança de modelo deve ser testada antes da implantação, mas o cenário não mostra que a escolha do modelo ameace a confiabilidade. A falta de um modelo de suporte, sim.",
+    "A tradução pode importar para alguns usuários, mas o cenário não menciona necessidades de idioma. Isso não ameaça a operação confiável.",
+    "Anúncios aos clientes afetam a divulgação, não se o assistente funciona de forma confiável nas centrais."
+   ]
+  },
+  "source": "original"
  }
 ]
