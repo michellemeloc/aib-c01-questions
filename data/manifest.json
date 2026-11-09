@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "source": "https://github.com/zghanw/aws-ai-business-strategist",
   "sourceCommit": "e9e87eb5566b954a057bc10e04a75f3101e67a53",
   "languages": [
@@ -17,5 +17,6 @@
   "sources": {
     "zghanw": 340,
     "original": 10
-  }
+  },
+  "examGuide": "AIB-C01 exam guide (task statements 1.1 to 4.4)"
 }

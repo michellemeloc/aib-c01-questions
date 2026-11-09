@@ -19,6 +19,7 @@ As questões não são oficiais da AWS e não vêm do exame real nem de sites de
 | Arquivo | Conteúdo |
 |---|---|
 | `data/questions.json` | Array com as 340 questões, nos dois idiomas |
+| `data/tasks.json` | Os 13 task statements do guia (1.1 a 4.4), em EN e PT, com a contagem de questões |
 | `data/manifest.json` | Versão, commit de origem e contagens |
 | `scripts/check.js` | Validação de integridade (`node scripts/check.js`) |
 
@@ -28,6 +29,7 @@ As questões não são oficiais da AWS e não vêm do exame real nem de sites de
 {
   "id": "d1-23",
   "domain": 1,
+  "task": "1.1",
   "correct": [0, 2],
   "multi": true,
   "source": "zghanw",

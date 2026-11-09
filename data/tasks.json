@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1.1",
+    "domain": 1,
+    "en": "Describe core AI concepts and define terminology",
+    "pt": "Descrever conceitos centrais de IA e definir a terminologia",
+    "questions": 29
+  },
+  {
+    "id": "1.2",
+    "domain": 1,
+    "en": "Identify and select appropriate AI solution types",
+    "pt": "Identificar e selecionar tipos de solução de IA adequados",
+    "questions": 31
+  },
+  {
+    "id": "1.3",
+    "domain": 1,
+    "en": "Apply GenAI concepts and techniques",
+    "pt": "Aplicar conceitos e técnicas de IA generativa",
+    "questions": 28
+  },
+  {
+    "id": "2.1",
+    "domain": 2,
+    "en": "Develop AI strategies that align with business objectives",
+    "pt": "Desenvolver estratégias de IA alinhadas aos objetivos de negócio",
+    "questions": 39
+  },
+  {
+    "id": "2.2",
+    "domain": 2,
+    "en": "Assess and demonstrate the business value of AI",
+    "pt": "Avaliar e demonstrar o valor de negócio da IA",
+    "questions": 40
+  },
+  {
+    "id": "2.3",
+    "domain": 2,
+    "en": "Position AI for competitive advantage",
+    "pt": "Posicionar a IA para vantagem competitiva",
+    "questions": 8
+  },
+  {
+    "id": "3.1",
+    "domain": 3,
+    "en": "Apply responsible AI principles to business decisions",
+    "pt": "Aplicar princípios de IA responsável a decisões de negócio",
+    "questions": 29
+  },
+  {
+    "id": "3.2",
+    "domain": 3,
+    "en": "Establish AI governance frameworks and ensure regulatory compliance",
+    "pt": "Estabelecer frameworks de governança de IA e garantir conformidade regulatória",
+    "questions": 34
+  },
+  {
+    "id": "3.3",
+    "domain": 3,
+    "en": "Identify enterprise AI risks and direct mitigation strategies",
+    "pt": "Identificar riscos corporativos de IA e direcionar estratégias de mitigação",
+    "questions": 24
+  },
+  {
+    "id": "4.1",
+    "domain": 4,
+    "en": "Assess AI business readiness and maturity",
+    "pt": "Avaliar a prontidão e a maturidade do negócio para IA",
+    "questions": 17
+  },
+  {
+    "id": "4.2",
+    "domain": 4,
+    "en": "Establish data and infrastructure foundations for AI",
+    "pt": "Estabelecer as bases de dados e infraestrutura para IA",
+    "questions": 17
+  },
+  {
+    "id": "4.3",
+    "domain": 4,
+    "en": "Lead enterprise-wide change and develop AI-ready workforce capabilities",
+    "pt": "Liderar a mudança em toda a empresa e desenvolver uma força de trabalho preparada para IA",
+    "questions": 31
+  },
+  {
+    "id": "4.4",
+    "domain": 4,
+    "en": "Scale AI from pilots to enterprise-wide deployments",
+    "pt": "Escalar a IA de pilotos para implantações em toda a empresa",
+    "questions": 23
+  }
+]
