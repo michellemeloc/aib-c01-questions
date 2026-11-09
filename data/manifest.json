@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "source": "https://github.com/zghanw/aws-ai-business-strategist",
+  "sourceCommit": "e9e87eb5566b954a057bc10e04a75f3101e67a53",
+  "languages": [
+    "en",
+    "pt"
+  ],
+  "total": 340,
+  "byDomain": [
+    85,
+    85,
+    85,
+    85
+  ],
+  "multi": 24
+}
